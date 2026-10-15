@@ -1,0 +1,20 @@
+{
+  "source": "assets/road_repaint/source/painted_road.png",
+  "runtime": "assets/road_repaint/painted_road.webp",
+  "full_rgba_exact": true,
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "rgba_sha256": "56522a9879ca5444ede143994840bfdd9a74cec24c4b9116fedb6fd7fecc5dee",
+  "slash_container_only": {
+    "source": "assets/vfx/sword_slash_atlas.png",
+    "runtime": "assets/vfx/sword_slash_atlas.webp",
+    "full_rgba_exact": true,
+    "dimensions": [
+      2048,
+      1024
+    ],
+    "rgba_sha256": "531aba4074c0e7bb27ed4143e5a9522fe5c9d4bae0ae6aeb71af47f763f35ed7"
+  }
+}

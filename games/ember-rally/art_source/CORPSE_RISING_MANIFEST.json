@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "asset": "art_source/corpse_rising_v1.png",
+  "status": "Original candidate art. Technically inspected; runtime integration and playback are parent-owned.",
+  "generator": "built-in image_gen (single call; 2026-10-14)",
+  "original_generated_file": "generated_images/exec-91e1fb54-7769-4a03-974f-46b7d4fcf762.png",
+  "source_sha256": "143386bcddf9b021459b1e452b3ce0aad9253fd6789b79049f5a7963ce035931",
+  "bytes": 889765,
+  "size": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "independent_source_pose_count": 8,
+  "poses_per_role": 4,
+  "runtime_animation_map": {
+    "demon_rise": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "caster_rise": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "demon_fallen": 0,
+    "caster_fallen": 4
+  },
+  "source_coordinates": "Original PNG pixels. Rectangles are [x,y,width,height], half-open. Ground anchors are relative to each rectangle. Do not split this atlas with a uniform 4x2 grid.",
+  "recommended_scale_factor": {
+    "demon": 0.194,
+    "caster": 0.21
+  },
+  "scale_note": "One CONSTANT scale per role for all four rise frames. Approximates existing standing demon/caster height at old renderer scale 0.25. Do not normalize each pose by its bbox height.",
+  "suggested_seconds": [
+    0.22,
+    0.34,
+    0.34,
+    0.2
+  ],
+  "pixels_changed": false,
+  "native_64px_verified": false,
+  "alpha_qa": {
+    "fully_transparent_pixels": 1092653,
+    "partially_transparent_pixels": 479437,
+    "fully_opaque_pixels": 1448,
+    "max_alpha": 255,
+    "min_alpha": 0,
+    "nonzero_alpha_median": 253.0,
+    "edge_case": "Generator produced sparse alpha=1 haze outside main silhouettes; preserved exactly. No background checkerboard. Most interior alpha is 252 or 253. This is real RGBA transparency, not binary-alpha/palette-certified pixel art."
+  },
+  "visual_qa": {
+    "reviewed": true,
+    "distinct_pose_progression": "Each role has visibly independent prone, elbows, kneeling and upright silhouette; not transformed reuse.",
+    "identity": "Red demon retains two ivory horns, red skin, charcoal armor, brown waistcloth and one curved cleaver. Caster retains two red horns, violet hood/cape, dark face and two ember eyes.",
+    "anatomy": "No extra arms or legs observed. Prone figures use natural limb occlusion. Caster hands are connected in elbows/kneeling/upright poses. Demon kneeling free palm is grounded.",
+    "weapon_limitation": "Demon elbow pose leaves the cleaver resting beside the right hand instead of visibly gripped. Do not claim continuous weapon-hand contact is certified. The kneeling and upright poses have a single gripped cleaver.",
+    "style_limitation": "Matched existing cartoon pixel-like source art. Native64 grid, strict palette and binary alpha are not certified.",
+    "runtime_limitation": "Actual engine playback, hit timing and foot/root continuity have not been tested by this art-only worker.",
+    "no_gore": true
+  },
+  "frames": [
+    {
+      "index": 0,
+      "kind": "demon",
+      "pose": "prone",
+      "source_rect": [
+        0,
+        0,
+        499,
+        484
+      ],
+      "ground_anchor": [
+        258,
+        450
+      ],
+      "ground_anchor_source": [
+        258,
+        450
+      ],
+      "anchor_quality": "Visual root/ground estimate; validate actual engine playback. Never use cleaver extent as ground point.",
+      "alpha_ge_32_bbox_in_rect": [
+        18,
+        318,
+        478,
+        474
+      ],
+      "nonempty": true,
+      "rgba_sha256": "5141827708a14a8043781db54971c6912d2c857542ad23119d338b3ca94e0f19"
+    },
+    {
+      "index": 1,
+      "kind": "demon",
+      "pose": "elbows",
+      "source_rect": [
+        499,
+        0,
+        428,
+        484
+      ],
+      "ground_anchor": [
+        234,
+        450
+      ],
+      "ground_anchor_source": [
+        733,
+        450
+      ],
+      "anchor_quality": "Visual root/ground estimate; validate actual engine playback. Never use cleaver extent as ground point.",
+      "alpha_ge_32_bbox_in_rect": [
+        19,
+        231,
+        386,
+        463
+      ],
+      "nonempty": true,
+      "rgba_sha256": "112535f93e3abbccd33f9ddb29a68506329fa85fbe52473c4f61305ce3396fd4"
+    },
+    {
+      "index": 2,
+      "kind": "demon",
+      "pose": "kneeling",
+      "source_rect": [
+        927,
+        0,
+        458,
+        484
+      ],
+      "ground_anchor": [
+        280,
+        450
+      ],
+      "ground_anchor_source": [
+        1207,
+        450
+      ],
+      "anchor_quality": "Visual root/ground estimate; validate actual engine playback. Never use cleaver extent as ground point.",
+      "alpha_ge_32_bbox_in_rect": [
+        42,
+        163,
+        435,
+        455
+      ],
+      "nonempty": true,
+      "rgba_sha256": "e7c17572cd66807cc55580a4f8dfabfa0baccd9c9b264df9e3b2567234f09bf7"
+    },
+    {
+      "index": 3,
+      "kind": "demon",
+      "pose": "upright",
+      "source_rect": [
+        1385,
+        0,
+        389,
+        484
+      ],
+      "ground_anchor": [
+        234,
+        443
+      ],
+      "ground_anchor_source": [
+        1619,
+        443
+      ],
+      "anchor_quality": "Visual root/ground estimate; validate actual engine playback. Never use cleaver extent as ground point.",
+      "alpha_ge_32_bbox_in_rect": [
+        25,
+        65,
+        372,
+        446
+      ],
+      "nonempty": true,
+      "rgba_sha256": "f90e195a5b19a59cfef8cf03d58736dabbae5ce5ab66a51b2319e2852082d713"
+    },
+    {
+      "index": 4,
+      "kind": "caster",
+      "pose": "prone",
+      "source_rect": [
+        0,
+        484,
+        526,
+        403
+      ],
+      "ground_anchor": [
+        254,
+        344
+      ],
+      "ground_anchor_source": [
+        254,
+        828
+      ],
+      "anchor_quality": "Visual root/ground estimate; validate actual engine playback. Never use cleaver extent as ground point.",
+      "alpha_ge_32_bbox_in_rect": [
+        36,
+        195,
+        506,
+        346
+      ],
+      "nonempty": true,
+      "rgba_sha256": "822ddb264b5d7a4ab12401364b75378c106a988e9dd01817a8d898c1cf0da573"
+    },
+    {
+      "index": 5,
+      "kind": "caster",
+      "pose": "elbows",
+      "source_rect": [
+        526,
+        484,
+        461,
+        403
+      ],
+      "ground_anchor": [
+        231,
+        346
+      ],
+      "ground_anchor_source": [
+        757,
+        830
+      ],
+      "anchor_quality": "Visual root/ground estimate; validate actual engine playback. Never use cleaver extent as ground point.",
+      "alpha_ge_32_bbox_in_rect": [
+        18,
+        150,
+        431,
+        346
+      ],
+      "nonempty": true,
+      "rgba_sha256": "60a7d2a3c04fb83039e7f368f4545a5195717efff5d5b71fc4dda7e233a7895f"
+    },
+    {
+      "index": 6,
+      "kind": "caster",
+      "pose": "kneeling",
+      "source_rect": [
+        987,
+        484,
+        393,
+        403
+      ],
+      "ground_anchor": [
+        209,
+        348
+      ],
+      "ground_anchor_source": [
+        1196,
+        832
+      ],
+      "anchor_quality": "Visual root/ground estimate; validate actual engine playback. Never use cleaver extent as ground point.",
+      "alpha_ge_32_bbox_in_rect": [
+        32,
+        70,
+        355,
+        353
+      ],
+      "nonempty": true,
+      "rgba_sha256": "3eca0c1f41f65d39d563d7df813ce09de19ab4a425486674bf38c15a2fdd02d7"
+    },
+    {
+      "index": 7,
+      "kind": "caster",
+      "pose": "upright",
+      "source_rect": [
+        1380,
+        484,
+        394,
+        403
+      ],
+      "ground_anchor": [
+        209,
+        357
+      ],
+      "ground_anchor_source": [
+        1589,
+        841
+      ],
+      "anchor_quality": "Visual root/ground estimate; validate actual engine playback. Never use cleaver extent as ground point.",
+      "alpha_ge_32_bbox_in_rect": [
+        62,
+        8,
+        342,
+        363
+      ],
+      "nonempty": true,
+      "rgba_sha256": "b78cf9a4cf63cbb64d684a4cdfc6f63c7d82521db074c48f8970176f13c3ea67"
+    }
+  ]
+}

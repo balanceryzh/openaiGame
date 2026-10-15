@@ -1,0 +1,338 @@
+{
+  "schema": 1,
+  "generator": "builtin image_gen.imagegen",
+  "source_atlas": "res://assets/vegetation/native/vegetation_atlas_original.png",
+  "source_size": [
+    1774,
+    887
+  ],
+  "ground_texture": "res://assets/vegetation/native/ground_base_original.png",
+  "variants": [
+    {
+      "index": 0,
+      "name": "grass_short",
+      "texture": "res://assets/vegetation/sprites/grass_short.png",
+      "size": [
+        420,
+        223
+      ],
+      "root": [
+        208,
+        207
+      ],
+      "source_rect": [
+        17,
+        213,
+        420,
+        223
+      ],
+      "source_root": [
+        225,
+        420
+      ],
+      "source_region": [
+        0,
+        0,
+        444,
+        470
+      ],
+      "alpha_visible_bounds": [
+        9,
+        9,
+        411,
+        213
+      ],
+      "source_pixels_equal": true,
+      "sha256": "8b6a5efac134ec2b9c0195e97e41e8d121e6596d558c8e6fc3de16bf0636cc71"
+    },
+    {
+      "index": 1,
+      "name": "grass_medium",
+      "texture": "res://assets/vegetation/sprites/grass_medium.png",
+      "size": [
+        412,
+        328
+      ],
+      "root": [
+        215,
+        311
+      ],
+      "source_rect": [
+        470,
+        109,
+        412,
+        328
+      ],
+      "source_root": [
+        685,
+        420
+      ],
+      "source_region": [
+        444,
+        0,
+        887,
+        470
+      ],
+      "alpha_visible_bounds": [
+        9,
+        9,
+        404,
+        319
+      ],
+      "source_pixels_equal": true,
+      "sha256": "8285ed34f864f0aa035f9c51ce18a08a94607d0073ed125f3ab107d6a3ffb7f5"
+    },
+    {
+      "index": 2,
+      "name": "grass_tall",
+      "texture": "res://assets/vegetation/sprites/grass_tall.png",
+      "size": [
+        300,
+        424
+      ],
+      "root": [
+        148,
+        411
+      ],
+      "source_rect": [
+        969,
+        9,
+        300,
+        424
+      ],
+      "source_root": [
+        1117,
+        420
+      ],
+      "source_region": [
+        887,
+        0,
+        1330,
+        470
+      ],
+      "alpha_visible_bounds": [
+        9,
+        9,
+        291,
+        415
+      ],
+      "source_pixels_equal": true,
+      "sha256": "0a4b17630401c321152467d069e9f1e03f5262aec4c6108fb6643376e27e4520"
+    },
+    {
+      "index": 3,
+      "name": "fern_low_a",
+      "texture": "res://assets/vegetation/sprites/fern_low_a.png",
+      "size": [
+        428,
+        294
+      ],
+      "root": [
+        210,
+        267
+      ],
+      "source_rect": [
+        1339,
+        152,
+        428,
+        294
+      ],
+      "source_root": [
+        1549,
+        419
+      ],
+      "source_region": [
+        1330,
+        0,
+        1774,
+        470
+      ],
+      "alpha_visible_bounds": [
+        9,
+        8,
+        419,
+        285
+      ],
+      "source_pixels_equal": true,
+      "sha256": "4c1b76a305f69140e74d9062a7e0c34a4271a55962600d8430ac2b0c730beb9b"
+    },
+    {
+      "index": 4,
+      "name": "fern_low_b",
+      "texture": "res://assets/vegetation/sprites/fern_low_b.png",
+      "size": [
+        468,
+        367
+      ],
+      "root": [
+        233,
+        301
+      ],
+      "source_rect": [
+        6,
+        504,
+        468,
+        367
+      ],
+      "source_root": [
+        239,
+        805
+      ],
+      "source_region": [
+        0,
+        470,
+        474,
+        887
+      ],
+      "alpha_visible_bounds": [
+        9,
+        8,
+        462,
+        358
+      ],
+      "source_pixels_equal": true,
+      "sha256": "7d7a4fcb031699807fe34c84b04f933f87e2ac4a16aea19fabc48f607861f6ee"
+    },
+    {
+      "index": 5,
+      "name": "grass_dry_bent",
+      "texture": "res://assets/vegetation/sprites/grass_dry_bent.png",
+      "size": [
+        399,
+        352
+      ],
+      "root": [
+        199,
+        322
+      ],
+      "source_rect": [
+        474,
+        508,
+        399,
+        352
+      ],
+      "source_root": [
+        673,
+        830
+      ],
+      "source_region": [
+        474,
+        470,
+        887,
+        887
+      ],
+      "alpha_visible_bounds": [
+        7,
+        9,
+        390,
+        343
+      ],
+      "source_pixels_equal": true,
+      "sha256": "58e162361e010fc2c4d6b59d2c237226010f76472ecc7b07d1f881ffbac7230e"
+    },
+    {
+      "index": 6,
+      "name": "grass_broken",
+      "texture": "res://assets/vegetation/sprites/grass_broken.png",
+      "size": [
+        401,
+        346
+      ],
+      "root": [
+        196,
+        314
+      ],
+      "source_rect": [
+        914,
+        512,
+        401,
+        346
+      ],
+      "source_root": [
+        1110,
+        826
+      ],
+      "source_region": [
+        887,
+        470,
+        1330,
+        887
+      ],
+      "alpha_visible_bounds": [
+        8,
+        8,
+        392,
+        336
+      ],
+      "source_pixels_equal": true,
+      "sha256": "ec2855b02d5d45b1b1d389c70c7c319989bddb32fa8568522b326c4b98679464"
+    },
+    {
+      "index": 7,
+      "name": "grass_trampled",
+      "texture": "res://assets/vegetation/sprites/grass_trampled.png",
+      "size": [
+        432,
+        218
+      ],
+      "root": [
+        203,
+        182
+      ],
+      "source_rect": [
+        1334,
+        646,
+        432,
+        218
+      ],
+      "source_root": [
+        1537,
+        828
+      ],
+      "source_region": [
+        1330,
+        470,
+        1774,
+        887
+      ],
+      "alpha_visible_bounds": [
+        10,
+        9,
+        424,
+        209
+      ],
+      "source_pixels_equal": true,
+      "sha256": "0b6036317710cfbcda2a16fdd9cf68b3276742e877c8676833d5a7f35d0709ba"
+    }
+  ],
+  "processing": "Only rectangular cropping and PNG re-encoding; unchanged RGBA source pixels; no resampling, recoloring, thresholding, painting or alpha correction.",
+  "runtime_guidance": {
+    "texture_filter": "nearest_mipmap",
+    "alpha_scissor_threshold": 0.32,
+    "root_coordinates": "pixel coordinates in each cropped sprite; y down; source-root chosen at visible stem gathering/base, not lowest leaf edge",
+    "native_pixel_grid": "Not certified. Tool output is high-resolution pixel-styled art with 256 alpha levels, not native 64px hard-pixel art.",
+    "ground_seamless": "Prompt requested seamless, but exact wrap continuity is not certified. See qa statistics. Use once across ground or mirrored repeat to avoid obvious hard wrap seams.",
+    "original_source_crop_qa_threshold": 0.5,
+    "runtime_texture_contract": "Sample unchanged source_atlas with each source_rect and measured root; individual texture PNG entries are exact extraction QA crops and may be omitted from compact distribution.",
+    "gpu_minification": "Preserve native/vegetation_atlas_original.png.import with mipmaps/generate=true. GPU mip levels reduce tiny-card minification aliasing; original PNG pixels, dimensions and palette are unchanged.",
+    "ground_mapping": "One clamped world-aligned mapping across 48 x 36 arena; no ordinary repeat.",
+    "plant_lighting": "Unshaded original source colors, neutral tint; no extra lights."
+  },
+  "qa": {
+    "ground_size": [
+      1254,
+      1254
+    ],
+    "ground_mode": "RGB",
+    "ground_edge_difference_mean_rgb": {
+      "left_right": 2.412280701754386,
+      "top_bottom": 2.895002658160553
+    },
+    "ground_interior_neighbor_difference_mean_rgb": {
+      "horizontal": 0.7432112955488434,
+      "vertical": 0.7427263350521216
+    }
+  },
+  "source_sha256": "a26d00bf0293b4b5a109c9ce45b6b180afd82c725badacae4e2241961cb76b02",
+  "ground_sha256": "7af677cbc5095c9b9321a7e956b8a9cef88a5dabd1332fdc809c3d568b0fd8e3"
+}

@@ -1,0 +1,527 @@
+{
+  "schema_version": 1,
+  "texture": "assets/corpse_ecology/helmet_rise_paths_runtime.png",
+  "source_art": "assets/corpse_ecology/helmet_rise_paths_v3_clean.png",
+  "source_sha256": "536658035fe81000edc7cef25dce1344ecbec8e444218f47b8d5a8a3b9804e7e",
+  "pixel_scale": 0.0073,
+  "pixel_scale_by_path": {
+    "zombie_retained": 0.0073,
+    "zombie_fallen": 0.0073,
+    "skeleton_transform": 0.0073
+  },
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        0,
+        0,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        243,
+        135
+      ],
+      "action": "helmeted_dormant_undead",
+      "path": "zombie_retained",
+      "source_parts": [
+        [
+          18,
+          259,
+          447,
+          128
+        ]
+      ],
+      "source_root": [
+        245,
+        378
+      ],
+      "source_to_packed": [
+        -2,
+        -243
+      ],
+      "species": "zombie",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "grounded torso/limbs"
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        520,
+        0,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        196,
+        203
+      ],
+      "action": "hands_braced",
+      "path": "zombie_retained",
+      "source_parts": [
+        [
+          475,
+          189,
+          368,
+          196
+        ]
+      ],
+      "source_root": [
+        655,
+        376
+      ],
+      "source_to_packed": [
+        61,
+        -173
+      ],
+      "species": "zombie",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "grounded torso/limbs"
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        1040,
+        0,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        167,
+        270
+      ],
+      "action": "right_boot_half_kneel",
+      "path": "zombie_retained",
+      "source_parts": [
+        [
+          867,
+          120,
+          306,
+          263
+        ]
+      ],
+      "source_root": [
+        1018,
+        374
+      ],
+      "source_to_packed": [
+        189,
+        -104
+      ],
+      "species": "zombie",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "right near boot planted; left far knee grounded"
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        1560,
+        0,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        120,
+        336
+      ],
+      "action": "standing",
+      "path": "zombie_retained",
+      "source_parts": [
+        [
+          1256,
+          50,
+          219,
+          329
+        ]
+      ],
+      "source_root": [
+        1360,
+        370
+      ],
+      "source_to_packed": [
+        320,
+        -34
+      ],
+      "species": "zombie",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "both boots grounded"
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        0,
+        380,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        243,
+        136
+      ],
+      "action": "helmeted_dormant_undead",
+      "path": "zombie_fallen",
+      "source_parts": [
+        [
+          18,
+          575,
+          446,
+          128
+        ]
+      ],
+      "source_root": [
+        245,
+        695
+      ],
+      "source_to_packed": [
+        -2,
+        -179
+      ],
+      "species": "zombie",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "grounded torso/limbs"
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        520,
+        380,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        195,
+        214
+      ],
+      "action": "hands_braced",
+      "path": "zombie_fallen",
+      "source_parts": [
+        [
+          471,
+          492,
+          354,
+          206
+        ],
+        [
+          782,
+          503,
+          100,
+          102
+        ]
+      ],
+      "source_root": [
+        650,
+        690
+      ],
+      "source_to_packed": [
+        65,
+        -96
+      ],
+      "species": "zombie",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "grounded torso/limbs"
+    },
+    {
+      "index": 6,
+      "source_rect": [
+        1040,
+        380,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        223,
+        243
+      ],
+      "action": "right_boot_half_kneel",
+      "path": "zombie_fallen",
+      "source_parts": [
+        [
+          882,
+          464,
+          250,
+          156
+        ],
+        [
+          860,
+          620,
+          272,
+          76
+        ],
+        [
+          1131,
+          607,
+          101,
+          87
+        ]
+      ],
+      "source_root": [
+        1067,
+        691
+      ],
+      "source_to_packed": [
+        196,
+        -68
+      ],
+      "species": "zombie",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "right near boot planted; left far knee grounded"
+    },
+    {
+      "index": 7,
+      "source_rect": [
+        1560,
+        380,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        128,
+        314
+      ],
+      "action": "standing",
+      "path": "zombie_fallen",
+      "source_parts": [
+        [
+          1248,
+          393,
+          203,
+          303
+        ],
+        [
+          1427,
+          608,
+          95,
+          86
+        ]
+      ],
+      "source_root": [
+        1360,
+        691
+      ],
+      "source_to_packed": [
+        328,
+        3
+      ],
+      "species": "zombie",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "both boots grounded"
+    },
+    {
+      "index": 8,
+      "source_rect": [
+        0,
+        760,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        242,
+        138
+      ],
+      "action": "helmeted_dormant_undead",
+      "path": "skeleton_transform",
+      "source_parts": [
+        [
+          19,
+          870,
+          447,
+          134
+        ]
+      ],
+      "source_root": [
+        245,
+        992
+      ],
+      "source_to_packed": [
+        -3,
+        -94
+      ],
+      "species": "skeleton",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "grounded torso/limbs"
+    },
+    {
+      "index": 9,
+      "source_rect": [
+        520,
+        760,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        195,
+        205
+      ],
+      "action": "hands_braced",
+      "path": "skeleton_transform",
+      "source_parts": [
+        [
+          476,
+          803,
+          369,
+          197
+        ]
+      ],
+      "source_root": [
+        655,
+        992
+      ],
+      "source_to_packed": [
+        60,
+        -27
+      ],
+      "species": "skeleton",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "grounded torso/limbs"
+    },
+    {
+      "index": 10,
+      "source_rect": [
+        1040,
+        760,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        170,
+        281
+      ],
+      "action": "right_boot_half_kneel",
+      "path": "skeleton_transform",
+      "source_parts": [
+        [
+          866,
+          727,
+          306,
+          271
+        ]
+      ],
+      "source_root": [
+        1020,
+        992
+      ],
+      "source_to_packed": [
+        190,
+        49
+      ],
+      "species": "skeleton",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "right near boot planted; left far knee grounded"
+    },
+    {
+      "index": 11,
+      "source_rect": [
+        1560,
+        760,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        120,
+        313
+      ],
+      "action": "standing",
+      "path": "skeleton_transform",
+      "source_parts": [
+        [
+          1256,
+          695,
+          213,
+          303
+        ]
+      ],
+      "source_root": [
+        1360,
+        992
+      ],
+      "source_to_packed": [
+        320,
+        81
+      ],
+      "species": "skeleton",
+      "narrative": "Already undead while on ground; rises without human-to-undead transformation",
+      "support": "both boots grounded"
+    }
+  ],
+  "paths": {
+    "zombie_retained": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "durations": [
+        0.375,
+        0.375,
+        0.375,
+        0.375
+      ],
+      "loop": false
+    },
+    "zombie_fallen": {
+      "frames": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "durations": [
+        0.375,
+        0.375,
+        0.375,
+        0.375
+      ],
+      "loop": false
+    },
+    "skeleton_transform": {
+      "frames": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "durations": [
+        0.375,
+        0.375,
+        0.375,
+        0.375
+      ],
+      "loop": false
+    }
+  },
+  "settled_props": {
+    "zombie_fallen": {
+      "path": "zombie_fallen",
+      "source_rect": [
+        1755,
+        611,
+        95,
+        86
+      ],
+      "body_frame": 7,
+      "ground_anchor": [
+        -67,
+        83
+      ],
+      "pixel_scale": 0.0073,
+      "appear_at": 1.5,
+      "source_authored_rect": [
+        1427,
+        608,
+        95,
+        86
+      ],
+      "note": "Ground helmet was drawn independently in the same final pose; its original offset is preserved. Outside-rectangle root is intentional."
+    }
+  },
+  "runtime_enabled": true,
+  "approval_status": "Latest user correction: ground bodies are already zombies/skeleton soldiers; no human-to-undead transformation. Candidate art has not been declared user-approved.",
+  "side_contract": "near side = anatomical right; larger right shoulder plate; single tan patch on right knee",
+  "packing": "unchanged source pixels; deterministic rectangular packaging only",
+  "limits": [
+    "Pixel-style source, not certified native fixed-grid pixel art",
+    "Static anatomical review is not real-time engine animation acceptance",
+    "Final lying-to-standing continuity must be inspected in-game"
+  ]
+}

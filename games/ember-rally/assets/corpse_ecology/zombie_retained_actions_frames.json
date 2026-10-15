@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "texture": "assets/corpse_ecology/zombie_retained_actions.png",
+  "source_sha256": "f35c93dfb33ee25d07895689544673f7c71a758d1f4004dd8f2168ebca89f0ee",
+  "pixel_scale": 0.006953412462908012,
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        75,
+        25,
+        237,
+        345
+      ],
+      "ground_anchor": [
+        110,
+        339
+      ],
+      "action": "idle"
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        425,
+        29,
+        269,
+        347
+      ],
+      "ground_anchor": [
+        138,
+        339
+      ],
+      "action": "walk_right_contact"
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        774,
+        26,
+        286,
+        347
+      ],
+      "ground_anchor": [
+        149,
+        339
+      ],
+      "action": "walk_right_support_left_swing"
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        1150,
+        32,
+        271,
+        339
+      ],
+      "ground_anchor": [
+        132,
+        332
+      ],
+      "action": "walk_left_contact"
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        46,
+        396,
+        299,
+        354
+      ],
+      "ground_anchor": [
+        152,
+        346
+      ],
+      "action": "walk_left_support_right_swing"
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        400,
+        403,
+        324,
+        347
+      ],
+      "ground_anchor": [
+        165,
+        339
+      ],
+      "action": "attack_prepare"
+    },
+    {
+      "index": 6,
+      "source_rect": [
+        756,
+        409,
+        406,
+        341
+      ],
+      "ground_anchor": [
+        169,
+        333
+      ],
+      "action": "attack_contact"
+    },
+    {
+      "index": 7,
+      "source_rect": [
+        1167,
+        393,
+        251,
+        356
+      ],
+      "ground_anchor": [
+        119,
+        348
+      ],
+      "action": "hurt"
+    },
+    {
+      "index": 8,
+      "source_rect": [
+        49,
+        815,
+        345,
+        246
+      ],
+      "ground_anchor": [
+        181,
+        233
+      ],
+      "action": "death_collapse"
+    },
+    {
+      "index": 9,
+      "source_rect": [
+        457,
+        909,
+        535,
+        147
+      ],
+      "ground_anchor": [
+        218,
+        138
+      ],
+      "action": "death_prone"
+    }
+  ],
+  "animations": {
+    "idle": {
+      "frames": [
+        0
+      ],
+      "durations": [
+        0.7
+      ],
+      "loop": true
+    },
+    "walk": {
+      "frames": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "durations": [
+        0.22,
+        0.18,
+        0.22,
+        0.18
+      ],
+      "loop": true
+    },
+    "attack": {
+      "frames": [
+        5,
+        6
+      ],
+      "durations": [
+        0.16,
+        0.2
+      ],
+      "loop": false,
+      "events": [
+        {
+          "at": 0.16,
+          "name": "hit_contact"
+        }
+      ]
+    },
+    "hurt": {
+      "frames": [
+        7
+      ],
+      "durations": [
+        0.19
+      ],
+      "loop": false
+    },
+    "death": {
+      "frames": [
+        8,
+        9
+      ],
+      "durations": [
+        0.24,
+        0.24
+      ],
+      "loop": false
+    }
+  },
+  "frame_count": 10,
+  "rendering": "One constant source-to-world scale for this atlas; no per-pose stretching or normalizing",
+  "identity": "same blue uniform and single right knee patch; helmet retained",
+  "walk_review": "Four independently drawn phases, near patched right leg forward in A and trailing in C; no whole-image mirroring used to create phases. Real-time playback not certified.",
+  "approval_status": "candidate art, user approval not asserted",
+  "technical_limits": [
+    "RGBA contains partially transparent edge pixels",
+    "Native low-resolution pixel-grid compliance not asserted",
+    "Attack arm/joint continuity still needs real-time visual review"
+  ]
+}

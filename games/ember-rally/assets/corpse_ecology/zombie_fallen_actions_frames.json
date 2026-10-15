@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "texture": "assets/corpse_ecology/zombie_fallen_actions.png",
+  "source_sha256": "c641ffa427561fbfdd69e9ffd4d4a7ffb6f68a759277581e2f434848885e6888",
+  "pixel_scale": 0.00594889502762431,
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        69,
+        19,
+        260,
+        370
+      ],
+      "ground_anchor": [
+        122,
+        360
+      ],
+      "action": "idle"
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        412,
+        27,
+        316,
+        361
+      ],
+      "ground_anchor": [
+        150,
+        353
+      ],
+      "action": "walk_right_contact"
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        813,
+        24,
+        270,
+        365
+      ],
+      "ground_anchor": [
+        132,
+        357
+      ],
+      "action": "walk_right_support_left_swing"
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        1133,
+        31,
+        286,
+        353
+      ],
+      "ground_anchor": [
+        147,
+        345
+      ],
+      "action": "walk_left_contact"
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        57,
+        391,
+        302,
+        369
+      ],
+      "ground_anchor": [
+        141,
+        361
+      ],
+      "action": "walk_left_support_right_swing"
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        405,
+        407,
+        324,
+        356
+      ],
+      "ground_anchor": [
+        159,
+        348
+      ],
+      "action": "attack_prepare"
+    },
+    {
+      "index": 6,
+      "source_rect": [
+        744,
+        418,
+        388,
+        347
+      ],
+      "ground_anchor": [
+        184,
+        339
+      ],
+      "action": "attack_contact"
+    },
+    {
+      "index": 7,
+      "source_rect": [
+        1140,
+        412,
+        277,
+        354
+      ],
+      "ground_anchor": [
+        151,
+        346
+      ],
+      "action": "hurt"
+    },
+    {
+      "index": 8,
+      "source_rect": [
+        45,
+        814,
+        347,
+        246
+      ],
+      "ground_anchor": [
+        183,
+        235
+      ],
+      "action": "death_collapse"
+    },
+    {
+      "index": 9,
+      "source_rect": [
+        415,
+        909,
+        576,
+        157
+      ],
+      "ground_anchor": [
+        248,
+        148
+      ],
+      "action": "death_prone"
+    }
+  ],
+  "animations": {
+    "idle": {
+      "frames": [
+        0
+      ],
+      "durations": [
+        0.7
+      ],
+      "loop": true
+    },
+    "walk": {
+      "frames": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "durations": [
+        0.22,
+        0.18,
+        0.22,
+        0.18
+      ],
+      "loop": true
+    },
+    "attack": {
+      "frames": [
+        5,
+        6
+      ],
+      "durations": [
+        0.16,
+        0.2
+      ],
+      "loop": false,
+      "events": [
+        {
+          "at": 0.16,
+          "name": "hit_contact"
+        }
+      ]
+    },
+    "hurt": {
+      "frames": [
+        7
+      ],
+      "durations": [
+        0.19
+      ],
+      "loop": false
+    },
+    "death": {
+      "frames": [
+        8,
+        9
+      ],
+      "durations": [
+        0.24,
+        0.24
+      ],
+      "loop": false
+    }
+  },
+  "frame_count": 10,
+  "rendering": "One constant source-to-world scale for this atlas; no per-pose stretching or normalizing",
+  "identity": "same blue uniform and single right knee patch; fallen helmet is retained by corpse-source prop, never attached to actor",
+  "walk_review": "Four independently drawn phases, near patched right leg forward in A and trailing in C; no whole-image mirroring used to create phases. Real-time playback not certified.",
+  "approval_status": "candidate art, user approval not asserted",
+  "technical_limits": [
+    "RGBA contains partially transparent edge pixels",
+    "Native low-resolution pixel-grid compliance not asserted",
+    "Attack arm/joint continuity still needs real-time visual review"
+  ]
+}

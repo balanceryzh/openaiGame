@@ -1,0 +1,365 @@
+{
+  "asset": "art_source/boss_actions.png",
+  "inspection_date": "2026-10-13",
+  "generator": "built-in image_gen",
+  "attempt_count": 1,
+  "original_generated_file": "generated_images/exec-2f0fd90c-522d-4c89-b0e0-b7fbd7ed1d75.png",
+  "source_sha256": "194caaf1b8e855a9b8a8620fb6cd6cc53ebe07f292c83b35a1c0ae7b661a6de5",
+  "pixel_qa": {
+    "requested_native_size": [
+      256,
+      192
+    ],
+    "actual_size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA",
+    "nominal_grid": [
+      4,
+      3
+    ],
+    "nominal_cell_source_pixels": [
+      362,
+      362
+    ],
+    "transparent_pixels": 794668,
+    "partly_transparent_pixels": 777228,
+    "opaque_pixels": 632,
+    "alpha_values": 256,
+    "nontransparent_unique_rgba": 273043,
+    "native_64px_verified": false,
+    "binary_alpha": false,
+    "strict_limited_palette": false,
+    "uniform_grid_safe": false,
+    "nonempty_12_frames": true,
+    "high_alpha_pixels_touching_outer_edges": 0
+  },
+  "visual_qa": {
+    "identity": "Broad ash-red/red demon captain with black-gold heavy armor, red tabard, one long horn and one stump, and one greatsword. The intact viewer-left horn stays consistent across standing action poses.",
+    "walk": "Frames 1 and 3 are near-identical stances; 2 and 4 show similar raised-knee poses. Alternating gait acceptance FAILED.",
+    "weapon_hand": "A single greatsword is held in both hands during windup, anticipation and release. Exact dominant-hand order is not established by this inspection.",
+    "margins": "Horn in frame 0 comes within 2 source pixels of top edge. Release sword comes within 1 source pixel of right edge. Frames 6, 7, 9 and 11 cross nominal cell borders, so uniform grid extraction is unsafe."
+  },
+  "source_standing_height_estimate": 345,
+  "anchor_note": "Ground anchors are visual estimates independent of weapon-tip bounds. Numbers are source pixels; they are not certified joint landmarks.",
+  "frames": [
+    {
+      "index": 0,
+      "action": "idle",
+      "source_rect": [
+        53,
+        0,
+        277,
+        351
+      ],
+      "ground_anchor": [
+        122,
+        346
+      ],
+      "ground_anchor_source": [
+        175,
+        346
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        2,
+        273,
+        347
+      ],
+      "nonempty": true
+    },
+    {
+      "index": 1,
+      "action": "walk_left_contact_requested",
+      "source_rect": [
+        428,
+        5,
+        283,
+        351
+      ],
+      "ground_anchor": [
+        132,
+        346
+      ],
+      "ground_anchor_source": [
+        560,
+        351
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        279,
+        347
+      ],
+      "nonempty": true,
+      "acceptance_warning": "Requested action name; anatomical alternating gait not accepted"
+    },
+    {
+      "index": 2,
+      "action": "walk_passing_requested",
+      "source_rect": [
+        789,
+        2,
+        265,
+        345
+      ],
+      "ground_anchor": [
+        125,
+        340
+      ],
+      "ground_anchor_source": [
+        914,
+        342
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        261,
+        341
+      ],
+      "nonempty": true,
+      "acceptance_warning": "Requested action name; anatomical alternating gait not accepted"
+    },
+    {
+      "index": 3,
+      "action": "walk_right_contact_requested",
+      "source_rect": [
+        1150,
+        7,
+        287,
+        346
+      ],
+      "ground_anchor": [
+        135,
+        341
+      ],
+      "ground_anchor_source": [
+        1285,
+        348
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        283,
+        342
+      ],
+      "nonempty": true,
+      "acceptance_warning": "Requested action name; anatomical alternating gait not accepted"
+    },
+    {
+      "index": 4,
+      "action": "walk_opposite_passing_requested",
+      "source_rect": [
+        70,
+        364,
+        253,
+        345
+      ],
+      "ground_anchor": [
+        118,
+        341
+      ],
+      "ground_anchor_source": [
+        188,
+        705
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        249,
+        341
+      ],
+      "nonempty": true,
+      "acceptance_warning": "Requested action name; anatomical alternating gait not accepted"
+    },
+    {
+      "index": 5,
+      "action": "attack_windup",
+      "source_rect": [
+        397,
+        364,
+        290,
+        354
+      ],
+      "ground_anchor": [
+        138,
+        349
+      ],
+      "ground_anchor_source": [
+        535,
+        713
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        286,
+        350
+      ],
+      "nonempty": true
+    },
+    {
+      "index": 6,
+      "action": "attack_anticipation",
+      "source_rect": [
+        688,
+        370,
+        360,
+        347
+      ],
+      "ground_anchor": [
+        212,
+        343
+      ],
+      "ground_anchor_source": [
+        900,
+        713
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        356,
+        343
+      ],
+      "nonempty": true
+    },
+    {
+      "index": 7,
+      "action": "attack_release",
+      "source_rect": [
+        1054,
+        428,
+        394,
+        305
+      ],
+      "ground_anchor": [
+        131,
+        268
+      ],
+      "ground_anchor_source": [
+        1185,
+        696
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        393,
+        301
+      ],
+      "nonempty": true,
+      "event": "weapon_hit"
+    },
+    {
+      "index": 8,
+      "action": "attack_recover",
+      "source_rect": [
+        50,
+        733,
+        304,
+        317
+      ],
+      "ground_anchor": [
+        125,
+        312
+      ],
+      "ground_anchor_source": [
+        175,
+        1045
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        300,
+        313
+      ],
+      "nonempty": true
+    },
+    {
+      "index": 9,
+      "action": "hurt",
+      "source_rect": [
+        406,
+        739,
+        345,
+        316
+      ],
+      "ground_anchor": [
+        164,
+        311
+      ],
+      "ground_anchor_source": [
+        570,
+        1050
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        341,
+        312
+      ],
+      "nonempty": true
+    },
+    {
+      "index": 10,
+      "action": "collapse",
+      "source_rect": [
+        751,
+        776,
+        286,
+        274
+      ],
+      "ground_anchor": [
+        133,
+        262
+      ],
+      "ground_anchor_source": [
+        884,
+        1038
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        282,
+        270
+      ],
+      "nonempty": true
+    },
+    {
+      "index": 11,
+      "action": "dead",
+      "source_rect": [
+        1044,
+        865,
+        386,
+        195
+      ],
+      "ground_anchor": [
+        186,
+        165
+      ],
+      "ground_anchor_source": [
+        1230,
+        1030
+      ],
+      "anchor_quality": "Visual ground/root estimate; requires in-engine playback adjustment",
+      "alpha_ge_32_bbox_in_rect": [
+        4,
+        4,
+        382,
+        191
+      ],
+      "nonempty": true
+    }
+  ]
+}

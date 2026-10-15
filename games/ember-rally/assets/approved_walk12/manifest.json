@@ -1,0 +1,526 @@
+{
+  "cycle_ticks": 26,
+  "fps": 24,
+  "units": {
+    "hero": {
+      "frames": [
+        {
+          "file": "res://assets/approved_walk12/hero/n014_redraw.png",
+          "anchor": [
+            700,
+            1100
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 14,
+          "sha256": "5dda864bee16a755a92639cc77af2a2de099a039f52a7c6833af3aa258f5368d"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n016_redraw.png",
+          "anchor": [
+            700,
+            1098
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 16,
+          "sha256": "4218ab7fb6901477dd7a309d9c098841bf2c403e9ce2a68a66d145a991f48dd2"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n018_redraw.png",
+          "anchor": [
+            700,
+            1105
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 18,
+          "sha256": "93ccf23c9aa3a33119e6d0d0b20c4adcce68cf4efbc9750d59e37ed66b95cafa"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n020_redraw.png",
+          "anchor": [
+            700,
+            1110
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 20,
+          "sha256": "b9b0d6a7f4aae10bcf838b8e6a7fbf04943f5f97f960827d4591cfb410b3ac08"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n022_redraw.png",
+          "anchor": [
+            700,
+            1079
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 3,
+          "source_n": 22,
+          "sha256": "5de6ce865c55b30469f262127ee7ee456218b49a58a1c20c565edcd18f99e112"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n025_corrected.png",
+          "anchor": [
+            700,
+            1100
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 3,
+          "source_n": 25,
+          "sha256": "e17d9afc36d3a5647f21b0c14ba1cf8168570c37e6a01fee8a83ec1df9350bd1"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n028_redraw.png",
+          "anchor": [
+            700,
+            1097
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 28,
+          "sha256": "35dad928ea01e9d7a7dd07d017b0c677eee951963ab0124baa41838cd2c8fce9"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n030_redraw.png",
+          "anchor": [
+            700,
+            1081
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 30,
+          "sha256": "631b1d2daf9770935e58195aafefb431ad5704153c1f4ecb158d5eb7a284c6dd"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n032_redraw.png",
+          "anchor": [
+            700,
+            1078
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 32,
+          "sha256": "99a7c4d1abe1335e27b22a5893409d9ea2a01a5bcc7c669d45544a31b377dd71"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n034_redraw.png",
+          "anchor": [
+            700,
+            1100
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 34,
+          "sha256": "e25a4beb392e530621e0bf09aa592cbb18364812420748bb157b075394a65fcb"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n036_redraw.png",
+          "anchor": [
+            700,
+            1095
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 36,
+          "sha256": "e95192c714007db3d1ad0f1975396841d74e9519a685cda1e68dbe6705d7b744"
+        },
+        {
+          "file": "res://assets/approved_walk12/hero/n038_redraw.png",
+          "anchor": [
+            700,
+            1087
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 38,
+          "sha256": "986f471aa32089f31234a0120ae3b3130d8aa87b517338dbdc6583087c12709b"
+        }
+      ],
+      "pixel_scale": 0.002626865671641791
+    },
+    "shield": {
+      "frames": [
+        {
+          "file": "res://assets/approved_walk12/shield/n014.png",
+          "anchor": [
+            700,
+            1086
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 14,
+          "sha256": "507cef45f60125983ca652b9801fe963fd7d669e36197baf0ce25366bc994328"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n016.png",
+          "anchor": [
+            700,
+            1087
+          ],
+          "size": [
+            1340,
+            1174
+          ],
+          "ticks": 2,
+          "source_n": 16,
+          "sha256": "3fd58af512b1b3ea9fd34f9339d661329fb4f061aa7809085d816788225878cb"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n018.png",
+          "anchor": [
+            700,
+            1088
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 18,
+          "sha256": "6346d81ec6661b76a59bec1645e4eb5d9babf4b3636014cf95ff0bb53c0fb9af"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n020.png",
+          "anchor": [
+            700,
+            1075
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 20,
+          "sha256": "2688b0a41824cf9a3f72c8aa39e0ab82759de94e56f07ae3565562a10dcda823"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n022.png",
+          "anchor": [
+            700,
+            1074
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 3,
+          "source_n": 22,
+          "sha256": "2ad8ff5d034a17efd351e77b781d6325789831cf0f2ae920c485c20724652e00"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n025.png",
+          "anchor": [
+            700,
+            1085
+          ],
+          "size": [
+            1340,
+            1174
+          ],
+          "ticks": 3,
+          "source_n": 25,
+          "sha256": "e2d20ba77e60ecceeef70d2ecb77789a6891ad2ccd9a9bf16ec3cfca3a423796"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n028.png",
+          "anchor": [
+            700,
+            1064
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 28,
+          "sha256": "6b257ab6f64de8fe38e98878ffb8ef0178bdc33e5d0ff9e7e2a44993627529a4"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n030.png",
+          "anchor": [
+            700,
+            1085
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 30,
+          "sha256": "d7892e21088db347ed6de8b9af3755db01a753f6c0f5115f4254dd2815ebe263"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n032.png",
+          "anchor": [
+            700,
+            1083
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 32,
+          "sha256": "3f67a1bb884f3de76699a8cb626cc03f070a0a40e2d4d1e8af35c19d5312f578"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n034.png",
+          "anchor": [
+            700,
+            1061
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 34,
+          "sha256": "d79f528f8dade8e7e0d4d0d61677ab65a268ea20980b9e3c5ebb0e7cff62366f"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n036.png",
+          "anchor": [
+            700,
+            1066
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 36,
+          "sha256": "0d479e944ade7d50500cd5e5345ad0148d5db1311277130b635864c4a2f90334"
+        },
+        {
+          "file": "res://assets/approved_walk12/shield/n038.png",
+          "anchor": [
+            700,
+            1064
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 38,
+          "sha256": "3daff598b70f473e14fc38fc3d47dccf9dbb1bd4be543cdee9aa68640e0a8e00"
+        }
+      ],
+      "pixel_scale": 0.002771084337349397
+    },
+    "archer": {
+      "frames": [
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n014_v1.png",
+          "anchor": [
+            700,
+            1093
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 14,
+          "sha256": "ce2e5784a5d275ab70e3d275059d23dee8b8496ed00958111e7047046e13584f"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n016_v1.png",
+          "anchor": [
+            700,
+            1070
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 16,
+          "sha256": "9b79c81384c50dac7270446d10de4faf6a6861ee43f83dd06bf894d988668503"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n018_v1.png",
+          "anchor": [
+            700,
+            1111
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 18,
+          "sha256": "a86d006cd2880ab29845b5994d0ebb92c3c314e4ddb04a4451e935e43a6984f3"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n020_v1.png",
+          "anchor": [
+            700,
+            1099
+          ],
+          "size": [
+            1340,
+            1174
+          ],
+          "ticks": 2,
+          "source_n": 20,
+          "sha256": "fa4d8f5ff05c63b707a4b8bcc4c0094011edbdff0eedf509adea952c3952d20a"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n022_v3_legfix.png",
+          "anchor": [
+            700,
+            1074
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 3,
+          "source_n": 22,
+          "sha256": "50f3ca0470a3cb58f23ef022d54e9238cf4dd8d708d4dc3f96a254ff10d3fcc4"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n025_v3_legfix.png",
+          "anchor": [
+            700,
+            1093
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 3,
+          "source_n": 25,
+          "sha256": "a552e0afa530885e48ed8541e52b5581e0a0ddcb7bfc849efa75a8a28b836353"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n028_v1.png",
+          "anchor": [
+            700,
+            1087
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 28,
+          "sha256": "29ccbbe63d68a131cf8e98555811ac3a7e8cdcb0ddfacf74733d75543e05d2f6"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n030_v1.png",
+          "anchor": [
+            700,
+            1086
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 30,
+          "sha256": "f1c470fc9eebd9183b4b380e13c5549910d37ef3ec4ff1620243df34b0afef2f"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n032_v1.png",
+          "anchor": [
+            700,
+            1078
+          ],
+          "size": [
+            1340,
+            1174
+          ],
+          "ticks": 2,
+          "source_n": 32,
+          "sha256": "af3f3a9d3ef4b513b3d7cab1e2b92515001aa33b60f96b3578650faa804af872"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n034_v1.png",
+          "anchor": [
+            700,
+            1092
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 34,
+          "sha256": "dc20c2d5fb082d60e8c623856bdeb4c361d866e2d6b6104caaa18fcc5810d397"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n036_v1.png",
+          "anchor": [
+            700,
+            1088
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 36,
+          "sha256": "e6bd9a4b767e8e06ed68deddd525641b0be651a2620d877fc64e3a7dcac4e3f3"
+        },
+        {
+          "file": "res://assets/approved_walk12/archer/archer_n038_v1.png",
+          "anchor": [
+            700,
+            1056
+          ],
+          "size": [
+            1341,
+            1173
+          ],
+          "ticks": 2,
+          "source_n": 38,
+          "sha256": "f9daf5a62075b3200cb30765346fcc9b1ef469b85cdf3dd8c5dec1a990ba3edb"
+        }
+      ],
+      "pixel_scale": 0.0025517241379310347
+    }
+  },
+  "approval_status": "Approved hero and allied 12-frame walk, including hero frame-6 continuity repair"
+}

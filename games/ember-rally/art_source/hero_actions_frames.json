@@ -1,0 +1,215 @@
+{
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        0,
+        0,
+        313,
+        316
+      ],
+      "ground_anchor": [
+        160,
+        308
+      ]
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        313,
+        0,
+        314,
+        316
+      ],
+      "ground_anchor": [
+        160,
+        311
+      ]
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        627,
+        0,
+        313,
+        316
+      ],
+      "ground_anchor": [
+        160,
+        313
+      ]
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        940,
+        0,
+        314,
+        316
+      ],
+      "ground_anchor": [
+        160,
+        311
+      ]
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        0,
+        316,
+        313,
+        324
+      ],
+      "ground_anchor": [
+        160,
+        310
+      ]
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        313,
+        316,
+        314,
+        324
+      ],
+      "ground_anchor": [
+        160,
+        310
+      ]
+    },
+    {
+      "index": 6,
+      "source_rect": [
+        627,
+        316,
+        313,
+        324
+      ],
+      "ground_anchor": [
+        160,
+        314
+      ]
+    },
+    {
+      "index": 7,
+      "source_rect": [
+        940,
+        316,
+        314,
+        324
+      ],
+      "ground_anchor": [
+        160,
+        312
+      ]
+    },
+    {
+      "index": 8,
+      "source_rect": [
+        0,
+        640,
+        313,
+        304
+      ],
+      "ground_anchor": [
+        160,
+        292
+      ]
+    },
+    {
+      "index": 9,
+      "source_rect": [
+        313,
+        640,
+        314,
+        304
+      ],
+      "ground_anchor": [
+        160,
+        291
+      ]
+    },
+    {
+      "index": 10,
+      "source_rect": [
+        627,
+        640,
+        313,
+        304
+      ],
+      "ground_anchor": [
+        160,
+        291
+      ]
+    },
+    {
+      "index": 11,
+      "source_rect": [
+        940,
+        640,
+        314,
+        304
+      ],
+      "ground_anchor": [
+        160,
+        299
+      ]
+    },
+    {
+      "index": 12,
+      "source_rect": [
+        0,
+        944,
+        313,
+        310
+      ],
+      "ground_anchor": [
+        160,
+        280
+      ]
+    },
+    {
+      "index": 13,
+      "source_rect": [
+        313,
+        944,
+        314,
+        310
+      ],
+      "ground_anchor": [
+        160,
+        265
+      ]
+    },
+    {
+      "index": 14,
+      "source_rect": [
+        627,
+        944,
+        313,
+        310
+      ],
+      "ground_anchor": [
+        160,
+        281
+      ]
+    },
+    {
+      "index": 15,
+      "source_rect": [
+        940,
+        944,
+        314,
+        310
+      ],
+      "ground_anchor": [
+        160,
+        275
+      ]
+    }
+  ],
+  "source": "hero_actions.png",
+  "native_grid_verified": false,
+  "notes": "16 drawn poses; second generation fixed missing sword and unarmored anticipation sleeves. Nearest sampling; no source filtering. Walking contact/pass sequence visible, final corpse may crop a small cloak edge at left cell boundary."
+}

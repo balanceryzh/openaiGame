@@ -1,0 +1,74 @@
+[
+  {
+    "source": "assets/ground_repaint/source/painted_dirt.png",
+    "runtime": "assets/ground_repaint/painted_dirt.webp",
+    "rgba_sha256": "46c52ebee2415ff0f33b54ec8315ac601ddf4f5c27e8656738448ec6bca5cbb5",
+    "source_bytes": 1883808,
+    "runtime_bytes": 1275378,
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "all_rgba_exact": true
+  },
+  {
+    "source": "assets/corpse_ecology/helmet_rise_paths_runtime.png",
+    "runtime": "assets/corpse_ecology/helmet_rise_paths_runtime.webp",
+    "rgba_sha256": "121d8537db2d0e1442b195f85b5d995c3634df876061b5a63ab4b9f0b7854684",
+    "source_bytes": 1476409,
+    "runtime_bytes": 1000976,
+    "dimensions": [
+      2080,
+      1140
+    ],
+    "all_rgba_exact": true
+  },
+  {
+    "source": "assets/corpse_ecology/corpse_sources.png",
+    "runtime": "assets/corpse_ecology/corpse_sources.webp",
+    "rgba_sha256": "3b3ae6e2ff5e53a7c6a8510daac53aaab8528a7de469af282b952d1e3b8a0a16",
+    "source_bytes": 683476,
+    "runtime_bytes": 479158,
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "all_rgba_exact": true
+  },
+  {
+    "source": "art_source/corpse_rising_v1.png",
+    "runtime": "art_source/corpse_rising_v1.webp",
+    "rgba_sha256": "4988d27ff990db98746a06388ff9993caae12618f77df854a5307a3d956fa7e7",
+    "source_bytes": 889765,
+    "runtime_bytes": 690764,
+    "dimensions": [
+      1774,
+      887
+    ],
+    "all_rgba_exact": true
+  },
+  {
+    "source": "assets/vegetation/native/vegetation_atlas_original.png",
+    "runtime": "assets/vegetation/native/vegetation_atlas_original.webp",
+    "rgba_sha256": "abf5405063b187d9b9a428e59e6efb21bd550e1b40e1316da1c53aa3d7621835",
+    "source_bytes": 1202968,
+    "runtime_bytes": 933986,
+    "dimensions": [
+      1774,
+      887
+    ],
+    "all_rgba_exact": true
+  },
+  {
+    "source": "assets/ground_repaint/source/painted_grass.png",
+    "runtime": "assets/ground_repaint/painted_grass.webp",
+    "rgba_sha256": "f34d0db38e79ff3d656f74da7854bf8a760db5bd552b15c645ce2bd725dd901e",
+    "source_bytes": 1986056,
+    "runtime_bytes": 1443058,
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "all_rgba_exact": true
+  }
+]

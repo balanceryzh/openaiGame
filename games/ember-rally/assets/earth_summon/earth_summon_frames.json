@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "atlas": "res://assets/earth_summon/earth_summon_atlas.webp",
+  "texture": "assets/earth_summon/earth_summon_atlas.webp",
+  "atlas_size": [
+    1024,
+    1011
+  ],
+  "source_art": "res://assets/earth_summon/source/earth_summon_generated_v1.png",
+  "source_sha256": "66b3e9f9bba32f481643f1612c4f0e7930d8f20cc15e83a7e7b81737c7bf8807",
+  "frame_count": 11,
+  "unique_art_frames": 11,
+  "filter": "nearest",
+  "nominal_body_height_px": 240,
+  "recommended_world_height": 1.8,
+  "pixel_scale": 0.0075,
+  "states": {
+    "rise": {
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false
+    },
+    "move": {
+      "indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "loop": true
+    },
+    "hit": {
+      "indices": [
+        8,
+        9
+      ],
+      "loop": false
+    },
+    "idle": {
+      "indices": [
+        10
+      ],
+      "loop": true
+    }
+  },
+  "death": {
+    "reuse_manifest": "res://assets/death_dissolve/death_dissolve_frames.json",
+    "new_death_art": false
+  },
+  "coordinates": "source_rect uses runtime atlas pixels; ground_anchor is relative to each crop. Draw with root position minus ground_anchor at ONE fixed pixel_scale; do not normalize each frame size. Ground anchors align visible basal contact to a fixed world root.",
+  "packing": "Unscaled lossless exact RGBA rectangular copy with two-pixel crop padding and eight-pixel atlas gutters. Original generated image preserved. No art recolor, stretching, limb assembly or geometry animation.",
+  "limitations": [
+    "AI generated cartoon painted/pixel-like art, not hand-pixeled pixel art.",
+    "One movement pose blinks one eye.",
+    "Slithering mud lobes, no legs or feet.",
+    "Art inspected as still frames; actual engine playback and combat behavior require integration verification.",
+    "Only one front-right view; a runtime horizontal flip may be used for left."
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "state": "rise",
+      "state_frame": 0,
+      "action": "earth_cracks_eyes_emerge",
+      "source_art_rect": [
+        26,
+        204,
+        315,
+        132
+      ],
+      "ground_anchor": [
+        158,
+        129
+      ],
+      "duration": 0.12,
+      "source_rect": [
+        8,
+        8,
+        315,
+        132
+      ]
+    },
+    {
+      "index": 1,
+      "state": "rise",
+      "state_frame": 1,
+      "action": "half_body_rises",
+      "source_art_rect": [
+        392,
+        152,
+        322,
+        184
+      ],
+      "ground_anchor": [
+        163,
+        181
+      ],
+      "duration": 0.12,
+      "source_rect": [
+        331,
+        8,
+        322,
+        184
+      ]
+    },
+    {
+      "index": 2,
+      "state": "rise",
+      "state_frame": 2,
+      "action": "fists_break_ground",
+      "source_art_rect": [
+        746,
+        88,
+        333,
+        249
+      ],
+      "ground_anchor": [
+        174,
+        246
+      ],
+      "duration": 0.12,
+      "source_rect": [
+        661,
+        8,
+        333,
+        249
+      ]
+    },
+    {
+      "index": 3,
+      "state": "rise",
+      "state_frame": 3,
+      "action": "settled_standing",
+      "source_art_rect": [
+        1139,
+        80,
+        268,
+        247
+      ],
+      "ground_anchor": [
+        134,
+        244
+      ],
+      "duration": 0.12,
+      "source_rect": [
+        8,
+        265,
+        268,
+        247
+      ]
+    },
+    {
+      "index": 4,
+      "state": "move",
+      "state_frame": 0,
+      "action": "mud_lobe_push",
+      "source_art_rect": [
+        30,
+        445,
+        352,
+        213
+      ],
+      "ground_anchor": [
+        189,
+        210
+      ],
+      "duration": 0.13,
+      "source_rect": [
+        284,
+        265,
+        352,
+        213
+      ]
+    },
+    {
+      "index": 5,
+      "state": "move",
+      "state_frame": 1,
+      "action": "mud_lobe_gather",
+      "source_art_rect": [
+        393,
+        439,
+        309,
+        228
+      ],
+      "ground_anchor": [
+        169,
+        225
+      ],
+      "duration": 0.13,
+      "source_rect": [
+        644,
+        265,
+        309,
+        228
+      ]
+    },
+    {
+      "index": 6,
+      "state": "move",
+      "state_frame": 2,
+      "action": "forward_glide",
+      "source_art_rect": [
+        744,
+        453,
+        344,
+        214
+      ],
+      "ground_anchor": [
+        186,
+        211
+      ],
+      "duration": 0.13,
+      "source_rect": [
+        8,
+        520,
+        344,
+        214
+      ]
+    },
+    {
+      "index": 7,
+      "state": "move",
+      "state_frame": 3,
+      "action": "upright_recover",
+      "source_art_rect": [
+        1128,
+        439,
+        296,
+        228
+      ],
+      "ground_anchor": [
+        152,
+        225
+      ],
+      "duration": 0.13,
+      "source_rect": [
+        360,
+        520,
+        296,
+        228
+      ]
+    },
+    {
+      "index": 8,
+      "state": "hit",
+      "state_frame": 0,
+      "action": "recoil_eyes_closed",
+      "source_art_rect": [
+        59,
+        767,
+        289,
+        232
+      ],
+      "ground_anchor": [
+        151,
+        229
+      ],
+      "duration": 0.1,
+      "source_rect": [
+        664,
+        520,
+        289,
+        232
+      ]
+    },
+    {
+      "index": 9,
+      "state": "hit",
+      "state_frame": 1,
+      "action": "hit_recover",
+      "source_art_rect": [
+        400,
+        766,
+        323,
+        243
+      ],
+      "ground_anchor": [
+        166,
+        240
+      ],
+      "duration": 0.1,
+      "source_rect": [
+        8,
+        760,
+        323,
+        243
+      ]
+    },
+    {
+      "index": 10,
+      "state": "idle",
+      "state_frame": 0,
+      "action": "neutral_idle",
+      "source_art_rect": [
+        783,
+        777,
+        273,
+        230
+      ],
+      "ground_anchor": [
+        137,
+        227
+      ],
+      "duration": 0.2,
+      "source_rect": [
+        339,
+        760,
+        273,
+        230
+      ]
+    }
+  ]
+}

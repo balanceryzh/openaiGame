@@ -1,0 +1,80 @@
+{
+  "texture": "assets/corpse_ecology/corpse_sources.png",
+  "frames": [
+    {
+      "index": 0,
+      "source_type": "human",
+      "variant": 0,
+      "texture": "assets/corpse_ecology/helmet_rise_paths_runtime.png",
+      "source_rect": [
+        0,
+        0,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        243,
+        135
+      ],
+      "pixel_scale": 0.0073,
+      "action": "helmeted_dormant_undead",
+      "matches_rise_frame": 0
+    },
+    {
+      "index": 1,
+      "source_type": "human",
+      "variant": 1,
+      "texture": "assets/corpse_ecology/helmet_rise_paths_runtime.png",
+      "source_rect": [
+        0,
+        760,
+        520,
+        380
+      ],
+      "ground_anchor": [
+        242,
+        138
+      ],
+      "pixel_scale": 0.0073,
+      "action": "helmeted_dormant_undead",
+      "matches_rise_frame": 8
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        33,
+        753,
+        694,
+        228
+      ],
+      "ground_anchor": [
+        342,
+        220
+      ],
+      "action": "horned_demon_corpse",
+      "source_type": "demon",
+      "variant": 0,
+      "texture": "assets/corpse_ecology/corpse_sources.png",
+      "pixel_scale": 0.0039
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        755,
+        706,
+        663,
+        270
+      ],
+      "ground_anchor": [
+        335,
+        262
+      ],
+      "action": "horned_demon_corpse",
+      "source_type": "demon",
+      "variant": 1,
+      "texture": "assets/corpse_ecology/corpse_sources.png",
+      "pixel_scale": 0.0039
+    }
+  ],
+  "source_note": "Original human drawings preserved but superseded; human-origin faction sources are already zombies/skeletons on the ground and use exact helmeted undead rise starts. Demon lower-row source art selected unchanged."
+}

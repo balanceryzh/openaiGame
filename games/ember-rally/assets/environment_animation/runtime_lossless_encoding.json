@@ -1,0 +1,12 @@
+{
+  "source": "environment_details_atlas.png",
+  "runtime": "environment_details_atlas.webp",
+  "source_bytes": 3168925,
+  "runtime_bytes": 2355686,
+  "all_rgba_exact": true,
+  "decoded_rgba_sha256": "7be2bd304f6eea4f065c374db02f94cccc540a19289e05a047d75d02b2f7259d",
+  "dimensions": [
+    2508,
+    1254
+  ]
+}

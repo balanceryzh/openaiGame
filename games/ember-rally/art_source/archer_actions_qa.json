@@ -1,0 +1,398 @@
+{
+  "asset": "art_source/archer_actions.png",
+  "inspection_date": "2026-10-13",
+  "scope": "New source PNG and read-only QA metadata only; main and renderer untouched.",
+  "status": "Usable pixel-styled animation source with disclosed limitations; runtime motion and strict native pixel acceptance unverified.",
+  "generator": "built-in image_gen",
+  "attempt_count": 1,
+  "selected_original": "generated_images/exec-c4c08444-2be5-43b3-a943-6189b0c3cf64.png",
+  "selected_sha256": "98563925479364164e04ec8746e02cec18798c20d896a498acefb259e1ccdc93",
+  "reference": "art_source/pixel_master_keyposes.png row2 archer",
+  "reference_sha256": "36d2db8eda30aa9095cb71ab3253581c483b46089fb9dde7fe36f114537687ce",
+  "direction": "elevated front three-quarter southeast",
+  "source_pixels_modified_by_script": false,
+  "pixel_qa": {
+    "actual_size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA",
+    "intended_layout": [
+      4,
+      3
+    ],
+    "uniform_grid_safe": false,
+    "native_64px_verified": false,
+    "limited_palette_verified": false,
+    "actual_nontransparent_unique_rgba": 145851,
+    "alpha_values": 256,
+    "transparent_pixels": 944359,
+    "alpha_ge_240_pixels": 478941,
+    "binary_alpha": false,
+    "most_common_alpha": [
+      [
+        0,
+        944359
+      ],
+      [
+        253,
+        247277
+      ],
+      [
+        252,
+        126619
+      ],
+      [
+        1,
+        54573
+      ],
+      [
+        251,
+        41063
+      ],
+      [
+        250,
+        19451
+      ],
+      [
+        2,
+        18030
+      ],
+      [
+        249,
+        11497
+      ]
+    ],
+    "limitation": "Actual source is1448x1086 with many transition colors and partial alpha. Most solid interiors have alpha252-253. No image resizing, quantization, alpha thresholding, filtering or pixel editing was performed.",
+    "requested_cell_margins_met": false,
+    "margin_note": "Visible sprites are isolated but requested12% per-cell margins were not consistently met; use measured source rectangles."
+  },
+  "frame_rect_format": "[x,y,width,height] in original source pixels; rectangles half-open",
+  "anchor_format": "[x,y] relative to each source rectangle; visually estimated ground/root pivots, not measured joint landmarks",
+  "integration_note": "Use explicit source_rects and one constant scale for every frame. Do not normalize each frame by bounding-box height. Archer regular 362x362 slicing clips first-row feet; both sheets need uneven region boundaries to isolate wider death poses. Ground anchors require runtime fine-tuning. No per-frame source warping, rigging or pixel editing was done.",
+  "proposed_timing_seconds": {
+    "idle_frame": 0.12,
+    "walk_frame": 0.11,
+    "prepare_frame": 0.12,
+    "full_draw_or_block_frame": 0.1,
+    "release_or_slash_frame": 0.1,
+    "recover_frame": 0.16,
+    "hurt_frame": 0.12,
+    "collapse_frame": 0.18,
+    "dead_hold": 1.0
+  },
+  "animation_indices": {
+    "idle": [
+      0
+    ],
+    "walk": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "attack": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "hurt": [
+      9
+    ],
+    "death": [
+      10,
+      11
+    ]
+  },
+  "events": {
+    "arrow_spawn": 7,
+    "arrow_absent_in_release_sprite": true
+  },
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        0,
+        0,
+        360,
+        395
+      ],
+      "ground_anchor": [
+        190,
+        385
+      ],
+      "action": "idle",
+      "visible_bbox_relative_alpha_gt_10": [
+        96,
+        76,
+        215,
+        309
+      ],
+      "sha256_rect_rgba": "a428a09edf2a350e0ddaa5419e3b305578c0c8047956a3ad8dd11a7f127ceea1",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        360,
+        0,
+        364,
+        395
+      ],
+      "ground_anchor": [
+        182,
+        385
+      ],
+      "action": "walk_left_contact_requested",
+      "visible_bbox_relative_alpha_gt_10": [
+        79,
+        80,
+        225,
+        304
+      ],
+      "sha256_rect_rgba": "bf24a8f42acd07f37f39c04f9ad261a7f9c7bcef01bb9b72b0cd83abbcede4d0",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        724,
+        0,
+        336,
+        395
+      ],
+      "ground_anchor": [
+        167,
+        385
+      ],
+      "action": "walk_passing_requested",
+      "visible_bbox_relative_alpha_gt_10": [
+        74,
+        76,
+        203,
+        308
+      ],
+      "sha256_rect_rgba": "9fc406d4086822937d286ebd55c9e4f1db97322addd843bc8627bf9293002a43",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        1060,
+        0,
+        388,
+        395
+      ],
+      "ground_anchor": [
+        190,
+        385
+      ],
+      "action": "walk_right_contact_requested",
+      "visible_bbox_relative_alpha_gt_10": [
+        100,
+        87,
+        210,
+        297
+      ],
+      "sha256_rect_rgba": "416af9da1f5a8cf1dc1c1f7537c797a77037f52c67d1a91e84efa6066132a340",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        0,
+        395,
+        360,
+        340
+      ],
+      "ground_anchor": [
+        181,
+        330
+      ],
+      "action": "walk_opposite_passing_requested",
+      "visible_bbox_relative_alpha_gt_10": [
+        80,
+        26,
+        224,
+        303
+      ],
+      "sha256_rect_rgba": "82f11d71c725777207d020b9b10e8b61ff5e8119a07c4d83b845302503c2474f",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        360,
+        395,
+        364,
+        340
+      ],
+      "ground_anchor": [
+        177,
+        331
+      ],
+      "action": "raise_bow",
+      "visible_bbox_relative_alpha_gt_10": [
+        58,
+        21,
+        278,
+        310
+      ],
+      "sha256_rect_rgba": "9533380258220c1a367aacafa1be13c4f9c2f16360371e6703f9ba763b9a2ee3",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 6,
+      "source_rect": [
+        724,
+        395,
+        336,
+        340
+      ],
+      "ground_anchor": [
+        151,
+        331
+      ],
+      "action": "full_draw",
+      "visible_bbox_relative_alpha_gt_10": [
+        30,
+        11,
+        296,
+        320
+      ],
+      "sha256_rect_rgba": "ce8d98a16b9d90a65fa9ca6ad11fcfc5dbb59a29110abd6b8dda24407c2bf7bd",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 7,
+      "source_rect": [
+        1060,
+        395,
+        388,
+        340
+      ],
+      "ground_anchor": [
+        169,
+        331
+      ],
+      "action": "arrow_release",
+      "visible_bbox_relative_alpha_gt_10": [
+        59,
+        14,
+        290,
+        317
+      ],
+      "sha256_rect_rgba": "e987e99d602b1ddab7ac5292a53ca5219302e9b63afa60a1f3a216b7788dabc8",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 8,
+      "source_rect": [
+        0,
+        735,
+        360,
+        351
+      ],
+      "ground_anchor": [
+        190,
+        308
+      ],
+      "action": "recover",
+      "visible_bbox_relative_alpha_gt_10": [
+        94,
+        10,
+        212,
+        298
+      ],
+      "sha256_rect_rgba": "48eef6af58db4c668019940a4017e7dea6f5b09bd921a654cb40175ab7412e90",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 9,
+      "source_rect": [
+        360,
+        735,
+        364,
+        351
+      ],
+      "ground_anchor": [
+        175,
+        308
+      ],
+      "action": "hurt",
+      "visible_bbox_relative_alpha_gt_10": [
+        75,
+        35,
+        232,
+        273
+      ],
+      "sha256_rect_rgba": "07e210d8939472f78db71d03cbe11109d6231943e2db2c0a5e54b6c817999561",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 10,
+      "source_rect": [
+        724,
+        735,
+        336,
+        351
+      ],
+      "ground_anchor": [
+        163,
+        308
+      ],
+      "action": "collapse",
+      "visible_bbox_relative_alpha_gt_10": [
+        34,
+        87,
+        286,
+        221
+      ],
+      "sha256_rect_rgba": "a6bc6fe61461dbf6160834ff42396567ed2bd373703d8d267512206fcc367812",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 11,
+      "source_rect": [
+        1060,
+        735,
+        388,
+        351
+      ],
+      "ground_anchor": [
+        190,
+        317
+      ],
+      "action": "dead",
+      "visible_bbox_relative_alpha_gt_10": [
+        16,
+        169,
+        338,
+        148
+      ],
+      "sha256_rect_rgba": "9411d7c5f26abacbabc48507b4b1c3c43160a45b2cc040ba76bf1cd4d310ec2a",
+      "nonempty_alpha_gt_10": true
+    }
+  ],
+  "visual_findings": [
+    "Identity consistent: olive hood, green tunic, beige sleeves, brown bow/boots and pale-fletched back quiver; approximately three-head proportions.",
+    "Left hand holds bow at viewer-right; right drawing hand pulls to cheek for full draw. Release frame7 has empty bow and right hand in rearward follow-through; no nocked arrow remains.",
+    "Walk frames1 and3 show insufficiently opposed contacts; frames2 and4 appear to raise the same visible leg. They are distinct drawings but a strict alternating gait is NOT accepted.",
+    "Collapse visibly braces with the right hand and keeps the bow in the other. Dead pose retains hood, quiver and bow.",
+    "Anatomy visually plausible at atlas scale; elbow/string relationships in5-7 need final-game-size playback review."
+  ],
+  "acceptance": {
+    "transparent_png": "pass with partial-alpha edges/interiors",
+    "twelve_nonempty_distinct_source_frames": "pass",
+    "identity_at_atlas_scale": "pass with visual-review caveat",
+    "anatomy_at_atlas_scale": "no obvious extra limbs or detached weapon hands",
+    "requested_pose_semantics": "archer gait limitation",
+    "strict_native_64px": "not passed",
+    "strict_limited_palette": "not passed",
+    "original_source_unchanged": "pass: selected generation copied byte-for-byte",
+    "game_size_animation_playback": "not performed by source-art worker",
+    "godot_import_and_events": "parent integration required"
+  },
+  "prompt_set": "art_source/squad_actions_prompt_metadata.json"
+}

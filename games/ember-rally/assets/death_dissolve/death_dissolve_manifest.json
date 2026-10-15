@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "atlas": "res://assets/death_dissolve/death_dissolve_atlas_v2.webp",
+  "atlas_png": "res://assets/death_dissolve/death_dissolve_atlas_v2.png",
+  "atlas_size": [
+    1248,
+    768
+  ],
+  "source_art": "res://assets/death_dissolve/source/death_dissolve_generated_v2.png",
+  "source_sha256": "c6d9afbbe07a0cc2f2e2c2ba8478a808bd83215f5fec7c6ba1250e3095f513da",
+  "frame_count": 6,
+  "loop": false,
+  "total_duration": 0.54,
+  "filter": "nearest",
+  "coordinates": "source_rect is [x,y,width,height] in runtime atlas pixels. ground_anchor is measured from that crop top-left. It may lie outside the crop. Draw each crop about the same fixed world root at one fixed pixel scale. No per-frame scale, rotation, or fade is needed.",
+  "ground_origin_source_cell": [
+    289,
+    470
+  ],
+  "ground_origin_method": "One fixed coordinate for all 512px source cells. X=289 is measured alpha-weighted center of the first puff lower 70 pixels; Y=470 is its visible lower edge.",
+  "art_description": "Six independently drawn compact dust puff, bursting ash clusters, dispersal, and four faint final specks. No character/body, corpse, gore or electrical arcs.",
+  "tinting": {
+    "shared_atlas": true,
+    "palette": "Near-neutral generated grays; same six-frame artwork shared between species",
+    "undead": "Apply a constant gray material tint chosen by renderer",
+    "demon": "Apply a constant dark-red material tint chosen by renderer",
+    "disclosure": "These are tint variants of one atlas, not separately drawn species-specific death animations."
+  },
+  "packing": {
+    "operations": [
+      "Measured tight rectangular crops",
+      "Unscaled exact RGBA copy",
+      "Lossless WebP encoding"
+    ],
+    "crop_measure_alpha_min": 16,
+    "crop_padding": 2,
+    "minimum_added_transparent_gutter": 8,
+    "note": "Generated source contains invisible/near-invisible low-alpha speckles outside visible art. Measured crop removes outside margins only. All RGBA pixels within each crop are retained unchanged. Original full-resolution source is preserved."
+  },
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        8,
+        8,
+        312,
+        320
+      ],
+      "ground_anchor": [
+        153,
+        318
+      ],
+      "duration": 0.09,
+      "source_art_rect": [
+        136,
+        152,
+        312,
+        320
+      ],
+      "source_cell_rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_cell_ground_anchor": [
+        289,
+        470
+      ]
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        424,
+        8,
+        387,
+        361
+      ],
+      "ground_anchor": [
+        219,
+        358
+      ],
+      "duration": 0.09,
+      "source_art_rect": [
+        582,
+        112,
+        387,
+        361
+      ],
+      "source_cell_rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "source_cell_ground_anchor": [
+        289,
+        470
+      ]
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        840,
+        8,
+        360,
+        320
+      ],
+      "ground_anchor": [
+        221,
+        336
+      ],
+      "duration": 0.09,
+      "source_art_rect": [
+        1092,
+        134,
+        360,
+        320
+      ],
+      "source_cell_rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "source_cell_ground_anchor": [
+        289,
+        470
+      ]
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        8,
+        392,
+        340,
+        306
+      ],
+      "ground_anchor": [
+        181,
+        378
+      ],
+      "duration": 0.09,
+      "source_art_rect": [
+        108,
+        604,
+        340,
+        306
+      ],
+      "source_cell_rect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "source_cell_ground_anchor": [
+        289,
+        470
+      ]
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        424,
+        392,
+        337,
+        228
+      ],
+      "ground_anchor": [
+        194,
+        311
+      ],
+      "duration": 0.09,
+      "source_art_rect": [
+        607,
+        671,
+        337,
+        228
+      ],
+      "source_cell_rect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "source_cell_ground_anchor": [
+        289,
+        470
+      ]
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        840,
+        392,
+        220,
+        158
+      ],
+      "ground_anchor": [
+        163,
+        263
+      ],
+      "duration": 0.09,
+      "source_art_rect": [
+        1150,
+        719,
+        220,
+        158
+      ],
+      "source_cell_rect": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "source_cell_ground_anchor": [
+        289,
+        470
+      ]
+    }
+  ],
+  "original_cell_size": [
+    512,
+    512
+  ]
+}

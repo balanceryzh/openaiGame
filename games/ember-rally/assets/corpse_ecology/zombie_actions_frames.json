@@ -1,0 +1,231 @@
+{
+  "texture": "assets/corpse_ecology/zombie_actions.png",
+  "pixel_scale": 0.007,
+  "candidate_only": true,
+  "superseded_by": [
+    "zombie_retained_actions_frames.json",
+    "zombie_fallen_actions_frames.json"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        22,
+        273,
+        446,
+        115
+      ],
+      "ground_anchor": [
+        223,
+        107
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        482,
+        166,
+        313,
+        218
+      ],
+      "ground_anchor": [
+        146,
+        210
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        830,
+        134,
+        297,
+        256
+      ],
+      "ground_anchor": [
+        150,
+        248
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        1180,
+        49,
+        211,
+        341
+      ],
+      "ground_anchor": [
+        103,
+        333
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        78,
+        413,
+        270,
+        314
+      ],
+      "ground_anchor": [
+        137,
+        306
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        433,
+        419,
+        235,
+        303
+      ],
+      "ground_anchor": [
+        122,
+        295
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 6,
+      "source_rect": [
+        767,
+        438,
+        292,
+        290
+      ],
+      "ground_anchor": [
+        146,
+        282
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 7,
+      "source_rect": [
+        1086,
+        457,
+        341,
+        271
+      ],
+      "ground_anchor": [
+        154,
+        263
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 8,
+      "source_rect": [
+        72,
+        744,
+        262,
+        302
+      ],
+      "ground_anchor": [
+        127,
+        294
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 9,
+      "source_rect": [
+        406,
+        850,
+        297,
+        199
+      ],
+      "ground_anchor": [
+        145,
+        191
+      ],
+      "action": "historical_candidate"
+    },
+    {
+      "index": 10,
+      "source_rect": [
+        725,
+        946,
+        437,
+        111
+      ],
+      "ground_anchor": [
+        211,
+        103
+      ],
+      "action": "historical_candidate"
+    }
+  ],
+  "animations": {
+    "rise": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "durations": [
+        0.375,
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "idle": {
+      "frames": [
+        3
+      ],
+      "durations": [
+        0.7
+      ]
+    },
+    "walk": {
+      "frames": [
+        4,
+        5
+      ],
+      "durations": [
+        0.24,
+        0.24
+      ]
+    },
+    "attack": {
+      "frames": [
+        6,
+        7
+      ],
+      "durations": [
+        0.16,
+        0.2
+      ]
+    },
+    "hurt": {
+      "frames": [
+        8
+      ],
+      "durations": [
+        0.19
+      ]
+    },
+    "death": {
+      "frames": [
+        9,
+        10
+      ],
+      "durations": [
+        0.24,
+        0.24
+      ]
+    }
+  },
+  "rejected_for_final": [
+    "bareheaded human source rejected by user",
+    "old two-frame walk did not alternate leading legs"
+  ]
+}

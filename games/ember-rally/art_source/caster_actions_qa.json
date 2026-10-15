@@ -1,0 +1,261 @@
+{
+  "asset": "art_source/caster_actions.png",
+  "identity": "Staffless hooded two-handed fire-orb caster; hovering robe, no exposed legs or handed weapon",
+  "pixel_qa": {
+    "actual_size": [
+      1448,
+      1086
+    ],
+    "native_64px_verified": false,
+    "binary_alpha": false,
+    "strict_limited_palette": false
+  },
+  "visual_qa": {
+    "attack": "Frame5 lifts orb,6 expands charge,7 empty palms release,8 recovery. No staff hand swap.",
+    "movement": "Hover cloth phases, not a walking leg cycle.",
+    "limitations": "Large generated pixel-style image; strict native grid/palette not certified. Last corpse close to right boundary."
+  },
+  "source_sha256": "eabc2a07089a1a8bb7d5d47c22283a52c95d138aa8ff44e3b990a3bbb06fc746",
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        213.0,
+        342
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        64,
+        44,
+        362,
+        342
+      ]
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        362,
+        0,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        181.0,
+        338
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        0,
+        44,
+        362,
+        338
+      ]
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        724,
+        0,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        173.5,
+        340
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        0,
+        42,
+        347,
+        340
+      ]
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        1086,
+        0,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        176.0,
+        342
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        45,
+        48,
+        307,
+        342
+      ]
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        0,
+        362,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        168.0,
+        331
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        73,
+        28,
+        263,
+        331
+      ]
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        362,
+        362,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        181.5,
+        327
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        68,
+        33,
+        295,
+        327
+      ]
+    },
+    {
+      "index": 6,
+      "source_rect": [
+        724,
+        362,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        181.5,
+        331
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        19,
+        12,
+        344,
+        331
+      ]
+    },
+    {
+      "index": 7,
+      "source_rect": [
+        1086,
+        362,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        173.5,
+        331
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        14,
+        51,
+        333,
+        331
+      ]
+    },
+    {
+      "index": 8,
+      "source_rect": [
+        0,
+        724,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        167.0,
+        308
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        72,
+        12,
+        262,
+        308
+      ]
+    },
+    {
+      "index": 9,
+      "source_rect": [
+        362,
+        724,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        162.0,
+        305
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        23,
+        28,
+        301,
+        305
+      ]
+    },
+    {
+      "index": 10,
+      "source_rect": [
+        724,
+        724,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        181.0,
+        301
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        0,
+        82,
+        362,
+        301
+      ]
+    },
+    {
+      "index": 11,
+      "source_rect": [
+        1086,
+        724,
+        362,
+        362
+      ],
+      "ground_anchor": [
+        167.5,
+        305
+      ],
+      "nonempty": true,
+      "alpha_ge_32_bbox_in_rect": [
+        0,
+        181,
+        335,
+        305
+      ]
+    }
+  ]
+}

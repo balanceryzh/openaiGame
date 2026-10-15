@@ -1,0 +1,344 @@
+{
+  "asset": "art_source/undead_actions.png",
+  "inspection_date": "2026-10-13",
+  "scope": "Source sprite art and read-only QA only. Renderer and game logic untouched by this worker.",
+  "status": "Usable pixel-styled source with limitations; strict pixel-grid and alternating-gait acceptance failed.",
+  "generator": "built-in image_gen",
+  "attempt_count": 2,
+  "selected_original": "generated_images/exec-5875d0f0-c95c-4448-af2a-bcc47a0fd461.png",
+  "selected_sha256": "f1cc4147b18cf0efa1164352930f4832bf138830446ce49ab7c84edf83fb7184",
+  "reference": "art_source/pixel_master_keyposes.png, final row undead",
+  "identity": {
+    "skull": "bone skull, black eye sockets",
+    "costume": "ragged blue-gray tunic, brown belt/boots/gloves and rusty brown sword, gray battered shoulder armor",
+    "direction": "elevated front three-quarter southeast",
+    "proportions": "cartoon adult approximately 3–3.5 heads; visually consistent standing poses",
+    "visual_gate": "Consistent identity across source sheet. Exact anatomy and game-size temporal playback not accepted as passed."
+  },
+  "pixel_qa": {
+    "requested_size": [
+      1024,
+      1024
+    ],
+    "actual_size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "intended_layout": [
+      4,
+      4
+    ],
+    "uniform_grid_safe": false,
+    "native_64px_verified": false,
+    "strict_4x_pixel_blocks_verified": false,
+    "requested_max_colors": 32,
+    "actual_nontransparent_unique_rgba": 148936,
+    "alpha_values": 256,
+    "transparent_pixels": 919044,
+    "alpha_ge_240_pixels": 483463,
+    "binary_alpha": false,
+    "limitation": "Generator did not comply with exact dimensions, strict palette, binary alpha or perfectly even cell spacing. No resizing, quantization, thresholding or image filtering applied. Most solid interior pixels are alpha252–253; background is transparent but edges include partial alpha."
+  },
+  "frame_rect_format": "[x, y, width, height] in original source pixels; all rectangles half-open",
+  "anchor_format": "[x,y] relative to each source rectangle; visual ground/root estimates, not measured joint landmarks",
+  "integration_note": "Use explicit source rectangles and one constant display scale for every frame. Do not normalize each frame by its own bounding-box height. A regular1254/4 grid clips the wide corpse in0 and sword in10. Ground anchors are estimates needing actual playback QA; corpse anchors intentionally follow common local ground rather than character head.",
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        0,
+        0,
+        344,
+        325
+      ],
+      "ground_anchor": [
+        165,
+        305
+      ],
+      "action": "prone_corpse"
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        344,
+        0,
+        302,
+        325
+      ],
+      "ground_anchor": [
+        136,
+        305
+      ],
+      "action": "rise_hands_brace"
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        646,
+        0,
+        313,
+        325
+      ],
+      "ground_anchor": [
+        148,
+        308
+      ],
+      "action": "rise_low_supported_kneel"
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        959,
+        0,
+        295,
+        325
+      ],
+      "ground_anchor": [
+        134,
+        305
+      ],
+      "action": "rise_high_kneel"
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        0,
+        325,
+        314,
+        300
+      ],
+      "ground_anchor": [
+        162,
+        292
+      ],
+      "action": "idle_stoop"
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        314,
+        325,
+        313,
+        300
+      ],
+      "ground_anchor": [
+        165,
+        295
+      ],
+      "action": "walk_contact_a"
+    },
+    {
+      "index": 6,
+      "source_rect": [
+        627,
+        325,
+        314,
+        300
+      ],
+      "ground_anchor": [
+        159,
+        295
+      ],
+      "action": "walk_passing_a"
+    },
+    {
+      "index": 7,
+      "source_rect": [
+        941,
+        325,
+        313,
+        300
+      ],
+      "ground_anchor": [
+        157,
+        295
+      ],
+      "action": "walk_contact_b_not_opposite_verified"
+    },
+    {
+      "index": 8,
+      "source_rect": [
+        0,
+        625,
+        314,
+        301
+      ],
+      "ground_anchor": [
+        161,
+        295
+      ],
+      "action": "walk_passing_b_not_opposite_verified"
+    },
+    {
+      "index": 9,
+      "source_rect": [
+        314,
+        625,
+        303,
+        301
+      ],
+      "ground_anchor": [
+        164,
+        295
+      ],
+      "action": "sword_windup"
+    },
+    {
+      "index": 10,
+      "source_rect": [
+        617,
+        625,
+        364,
+        301
+      ],
+      "ground_anchor": [
+        172,
+        294
+      ],
+      "action": "sword_attack_release"
+    },
+    {
+      "index": 11,
+      "source_rect": [
+        981,
+        625,
+        273,
+        301
+      ],
+      "ground_anchor": [
+        114,
+        295
+      ],
+      "action": "sword_recovery"
+    },
+    {
+      "index": 12,
+      "source_rect": [
+        0,
+        926,
+        314,
+        328
+      ],
+      "ground_anchor": [
+        165,
+        284
+      ],
+      "action": "hurt_recoil"
+    },
+    {
+      "index": 13,
+      "source_rect": [
+        314,
+        926,
+        307,
+        328
+      ],
+      "ground_anchor": [
+        166,
+        284
+      ],
+      "action": "collapse_low_kneel"
+    },
+    {
+      "index": 14,
+      "source_rect": [
+        621,
+        926,
+        316,
+        328
+      ],
+      "ground_anchor": [
+        164,
+        290
+      ],
+      "action": "fall_sideways"
+    },
+    {
+      "index": 15,
+      "source_rect": [
+        937,
+        926,
+        317,
+        328
+      ],
+      "ground_anchor": [
+        156,
+        290
+      ],
+      "action": "final_corpse"
+    }
+  ],
+  "action_sequences": {
+    "rise": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "idle": [
+      4
+    ],
+    "walk_candidate": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "sword_attack": [
+      9,
+      10,
+      11
+    ],
+    "hurt": [
+      12
+    ],
+    "death": [
+      13,
+      14,
+      15
+    ]
+  },
+  "art_findings": [
+    "Rising sequence0–4 is visibly redrawn with progressively higher torso, supported hands, low kneel, high kneel, and standing stoop.",
+    "Sword9–11 has genuine separate windup, lunge/release and settling recovery drawings.",
+    "Hurt12, low collapse13, sideways fall14 and final prone15 are distinct drawings. Pose13 is a low crouched kneel; both knee contacts are partly occluded.",
+    "No obvious extra arm, extra leg or duplicate skull seen in full-sheet inspection. Hand and knee articulation is simplified; some forearms overlap weapon or clothing.",
+    "Walk frames5 and7 retain the same forward-foot silhouette, and6 and8 retain the same lifted-knee side. They are not pixel-identical, but they do not pass opposite-leg contact/passing semantics. Treat as a limited shuffle candidate, not a validated four-frame alternating walk.",
+    "Wide prone0 and attack10 extend past uniform quarter-width columns. Source rectangles above avoid visible clipping with alpha>=32, while faint alpha fringes may touch adjacent padding.",
+    "Frame15 resembles the initial corpse as expected; rise and death are not whole-image scaled substitutes.",
+    "Two attempts exhausted. Further art repair would require another authorized image-generation round or explicit authorization for another artwork method."
+  ],
+  "validation_boundaries": {
+    "source_whole_sheet_viewed": true,
+    "read_only_alpha_color_checks": true,
+    "original_bytes_preserved": true,
+    "game_size_frame_playback": false,
+    "half_speed_playback": false,
+    "engine_import": false,
+    "game_collision_events": false
+  },
+  "attempts": [
+    {
+      "path": "generated_images/exec-6b3c3567-ec03-4ba7-a645-780bb8727a79.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "eb60ddf9cc58d7589aa29575373e2295777c77cfcd89799064ff2e9b3b3ba736",
+      "unique_nontransparent_rgba": 149474,
+      "prompt": "Use case: identity-preserve.\nAsset type: production transparent pixel-art animation sprite sheet for an original top-down cartoon fantasy game.\n\nEDIT the supplied reference into a NEW UNDEAD-ONLY atlas. The supplied image is identity reference only: use ONLY the skeleton soldier shown in the LAST ROW. Remove all human heroes, archers and armored guards. Keep the undead's bone skull with dark eye sockets, narrow skeletal limbs, single rusty brown short sword, ragged desaturated blue-gray tunic, brown belt and boots, battered asymmetrical shoulder armor. Consistent cartoon adult 3-head body proportions, elevated front three-quarter camera, always facing southeast/right. This is one same character in sixteen independently DRAWN anatomical poses.\n\nCRITICAL FORMAT: Exactly 1024 by 1024 PNG with actual transparent alpha. Exactly 4 columns by 4 rows, equal 256 by 256 cells. Create genuine hand-placed retro pixel art on a logical 256 by 256 pixel atlas, each frame 64 by 64 logical pixels, then display every logical pixel as an identical sharp 4 by 4 square. All edges and color boundaries must align to that same 4 pixel grid. Strictly at most 32 flat solid colors plus binary transparency. NO gradients, NO antialiasing, NO soft subpixels, NO painterly detail. Bold chunky clustered pixels, 1 logical pixel dark outline. No visible grid, no labels, no numbers, no ground, no shadows, no other props. Nothing overlaps cell boundaries.\n\nAll standing and motion frames share foot baseline 228 display pixels down each cell and central root x=128; full standing height about 192 display pixels. Keep SAME body scale across every frame: prone poses are lower because the body is lying down, never shrink the character. Leave padding for swords.\n\nDraw exactly these frames, row-major left to right:\nROW ONE, rising from battlefield:\n0. Fully prone corpse lying on side, skull to right, two legs folded left, sword flat beside right hand. Obviously dead and flat.\n1. BOTH skeletal hands press ground, torso and skull lifting, hips and knees still on ground; sword lying nearby. Clearly different intermediate low rising pose.\n2. Low supported kneel: one hand planted, one knee supporting, other knee drawing forward; spine rising.\n3. High kneel: one boot firmly planted, opposite knee down, torso nearly upright, right hand retrieves and holds sword.\nROW TWO, moving:\n4. Standing idle stoop, two visible feet, sword angled down from right hand.\n5. WALK LEFT-FOOT CONTACT: character's left leg stepped forward and right leg trailing; opposite arm swing.\n6. WALK PASSING TOWARD RIGHT: weight on left leg, right knee visibly lifted passing beside support leg; torso over support foot.\n7. WALK RIGHT-FOOT CONTACT: right leg forward, left leg trailing, clearly opposite frame5, arms counter-swing.\nROW THREE:\n8. WALK PASSING TOWARD LEFT: weight on right leg, left knee lifted passing; clearly opposite frame6.\n9. Sword windup: both feet grounded apart, torso twisting, right elbow bends with rusty sword raised behind right shoulder. Left hand free and visible.\n10. Sword attack release: right arm extended in diagonal forward slash to lower-right, torso lunges with planted lead foot, left arm counterbalances; no slash effects.\n11. Sword recovery: knees settle, sword lowers, torso untwists, anatomically new recovery pose.\nROW FOUR:\n12. Hurt recoil: skull and chest jerk backward, knees bent, off-hand lifted, sword still right hand.\n13. Collapse to BOTH knees: skull droops, one hand starts reaching to ground, sword lowered.\n14. Falling sideways: torso diagonal nearly horizontal, one shoulder approaching ground, legs buckling, skull to right.\n15. Final corpse: on side at ground level, skull resting right, separated readable limbs, rusty sword dropped alongside; same scale as frame0.\n\nDraw distinct leg positions and joint bends, not scaled/rotated copies. Exactly two arms, two hands, two legs and one skull per pose. Empty spaces clearly separate limbs. Costume, palette, camera and skull identity consistent across all16. Output only the transparent atlas."
+    },
+    {
+      "path": "generated_images/exec-5875d0f0-c95c-4448-af2a-bcc47a0fd461.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "f1cc4147b18cf0efa1164352930f4832bf138830446ce49ab7c84edf83fb7184",
+      "unique_nontransparent_rgba": 148936,
+      "prompt": "Edit target: the supplied sixteen-frame UNDEAD skeleton soldier action sheet. Maintain the same character identity, body proportions, camera direction, costume, sword, and all sixteen action intentions. Do not substitute another character. The character is a cartoon adult bone skull skeleton in a ragged blue-gray tunic and brown boots, three-head proportions, facing southeast. True transparent background.\n\nPrimary targeted correction: FIX THE FOUR-FRAME WALK CYCLE so it has genuinely alternating legs. Count cells row-major from zero:\n- Frame5 (row2,col2) is LEFT-FOOT CONTACT: keep the foot presently on the screen-right side extended forward with its heel touching; other leg trails backward. This is the character's anatomical left leg.\n- Frame6 (row2,col3) is PASSING: the anatomical left leg, beginning on screen-right hip, is STRAIGHT and supporting on the baseline; the anatomical right leg from screen-left hip is lifted and BENT sharply forward, knee crossing toward center. The raised boot must be off ground. Clearly show the hips connecting correctly to the two thighs.\n- Frame7 (row2,col4) is RIGHT-FOOT CONTACT: redraw the legs so the leg starting at the screen-left hip extends diagonally forward and down-right across the centerline, and the leg from the screen-right hip trails backward with a flexed knee and lifted heel. This must be the opposite step from frame5, with different visible knee and boot positions, not a moved copy. Keep head and whole torso facing southeast, never mirror the whole character.\n- Frame8 (row3,col1) is OPPOSITE PASSING: anatomical right leg starting screen-left is straight and supporting the body; anatomical left leg starting screen-right hip is bent and raised forward, boot off ground. Opposite from frame6.\nArms subtly counter-swing, sword remains same right hand, exactly two legs and feet with readable joints. Each pose is separately DRAWN; no affine warping.\n\nKeep the other twelve actions: row1 = prone corpse, two-hand torso lift, low supported kneel, high one-foot kneel; row2col1 idle; row3cols2-4 sword windup, forward slash release, recovery; row4 hurt recoil, knee collapse, side fall, final prone corpse. No extra limbs.\n\nTechnical correction applying to whole sheet: exactly four columns and four rows with EQUAL cells and ample padding: ensure the complete corpse in cell0 and slashing sword in cell10 stay wholly inside their own cell, with at least 12 output pixels clear from each edge. Every frame keeps same character scale and foot baseline, never enlarge a corpse or center based on its individual height. Baseline y228 and root x128 within each 256x256 cell. Exact output request1024x1024. TRUE RETRO PIXEL ART: each logical pixel is precisely a 4x4 solid block on a shared pixel grid, 64x64 logical-pixel cells, at most32 flat colors plus completely transparent alpha. No antialiasing, no partial alpha or soft outline, no tiny colors, no gradients. Preserve no background, no ground shadow, no grid lines, no labels."
+    }
+  ]
+}

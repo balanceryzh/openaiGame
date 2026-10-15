@@ -1,0 +1,399 @@
+{
+  "asset": "art_source/shield_actions.png",
+  "inspection_date": "2026-10-13",
+  "scope": "New source PNG and read-only QA metadata only; main and renderer untouched.",
+  "status": "Usable pixel-styled animation source with disclosed limitations; runtime motion and strict native pixel acceptance unverified.",
+  "generator": "built-in image_gen",
+  "attempt_count": 2,
+  "selected_original": "generated_images/exec-0a0e8603-35c3-4d2c-8390-23755ea245cc.png",
+  "selected_sha256": "7bb614eb9f54b75d570e2d7d9affb4398e217c4e9a601c7ad03832cb1cea3325",
+  "reference": "art_source/pixel_master_keyposes.png row3 shield",
+  "reference_sha256": "36d2db8eda30aa9095cb71ab3253581c483b46089fb9dde7fe36f114537687ce",
+  "direction": "elevated front three-quarter southeast",
+  "source_pixels_modified_by_script": false,
+  "pixel_qa": {
+    "actual_size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA",
+    "intended_layout": [
+      4,
+      3
+    ],
+    "uniform_grid_safe": false,
+    "native_64px_verified": false,
+    "limited_palette_verified": false,
+    "actual_nontransparent_unique_rgba": 108706,
+    "alpha_values": 256,
+    "transparent_pixels": 972739,
+    "alpha_ge_240_pixels": 489636,
+    "binary_alpha": false,
+    "most_common_alpha": [
+      [
+        0,
+        972739
+      ],
+      [
+        253,
+        337457
+      ],
+      [
+        252,
+        75982
+      ],
+      [
+        1,
+        41787
+      ],
+      [
+        251,
+        24769
+      ],
+      [
+        250,
+        13421
+      ],
+      [
+        2,
+        12043
+      ],
+      [
+        249,
+        8251
+      ]
+    ],
+    "limitation": "Actual source is1448x1086 with many transition colors and partial alpha. Most solid interiors have alpha252-253. No image resizing, quantization, alpha thresholding, filtering or pixel editing was performed.",
+    "requested_cell_margins_met": false,
+    "margin_note": "Visible sprites are isolated but requested12% per-cell margins were not consistently met; use measured source rectangles."
+  },
+  "frame_rect_format": "[x,y,width,height] in original source pixels; rectangles half-open",
+  "anchor_format": "[x,y] relative to each source rectangle; visually estimated ground/root pivots, not measured joint landmarks",
+  "integration_note": "Use explicit source_rects and one constant scale for every frame. Do not normalize each frame by bounding-box height. Archer regular 362x362 slicing clips first-row feet; both sheets need uneven region boundaries to isolate wider death poses. Ground anchors require runtime fine-tuning. No per-frame source warping, rigging or pixel editing was done.",
+  "proposed_timing_seconds": {
+    "idle_frame": 0.12,
+    "walk_frame": 0.11,
+    "prepare_frame": 0.12,
+    "full_draw_or_block_frame": 0.1,
+    "release_or_slash_frame": 0.1,
+    "recover_frame": 0.16,
+    "hurt_frame": 0.12,
+    "collapse_frame": 0.18,
+    "dead_hold": 1.0
+  },
+  "animation_indices": {
+    "idle": [
+      0
+    ],
+    "walk": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "attack": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "hurt": [
+      9
+    ],
+    "death": [
+      10,
+      11
+    ]
+  },
+  "events": {
+    "shield_intercept": 6,
+    "sword_hit": 7
+  },
+  "frames": [
+    {
+      "index": 0,
+      "source_rect": [
+        0,
+        0,
+        348,
+        365
+      ],
+      "ground_anchor": [
+        174,
+        342
+      ],
+      "action": "idle",
+      "visible_bbox_relative_alpha_gt_10": [
+        64,
+        51,
+        227,
+        291
+      ],
+      "sha256_rect_rgba": "a2f63ff557efe9705d1e9c8b72950c330e96051e95022d9f46d6756e5575eccb",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 1,
+      "source_rect": [
+        348,
+        0,
+        364,
+        365
+      ],
+      "ground_anchor": [
+        179,
+        347
+      ],
+      "action": "walk_left_contact",
+      "visible_bbox_relative_alpha_gt_10": [
+        71,
+        53,
+        230,
+        296
+      ],
+      "sha256_rect_rgba": "3ededce70c221120c60159f266631ea477fadf2fb5cc1abcbb31637dfc16261a",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 2,
+      "source_rect": [
+        712,
+        0,
+        348,
+        365
+      ],
+      "ground_anchor": [
+        176,
+        345
+      ],
+      "action": "walk_passing",
+      "visible_bbox_relative_alpha_gt_10": [
+        72,
+        51,
+        228,
+        296
+      ],
+      "sha256_rect_rgba": "cc45567bc6aed30ba1e70ef7005c2b74bb62d046e34d48214a29f7975610da34",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 3,
+      "source_rect": [
+        1060,
+        0,
+        388,
+        365
+      ],
+      "ground_anchor": [
+        190,
+        346
+      ],
+      "action": "walk_right_contact",
+      "visible_bbox_relative_alpha_gt_10": [
+        79,
+        55,
+        230,
+        287
+      ],
+      "sha256_rect_rgba": "3e4a3b59fee8e977b6273faacd98f1f292fe6eb63df5c18715b612ba573e944d",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 4,
+      "source_rect": [
+        0,
+        365,
+        348,
+        339
+      ],
+      "ground_anchor": [
+        178,
+        317
+      ],
+      "action": "walk_opposite_passing",
+      "visible_bbox_relative_alpha_gt_10": [
+        64,
+        18,
+        234,
+        298
+      ],
+      "sha256_rect_rgba": "ae39212fffc7821079404a8a4a8a54f8245d1753fc01b0cbf8a72a53a1fb62eb",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 5,
+      "source_rect": [
+        348,
+        365,
+        364,
+        339
+      ],
+      "ground_anchor": [
+        189,
+        313
+      ],
+      "action": "shield_raise",
+      "visible_bbox_relative_alpha_gt_10": [
+        68,
+        42,
+        250,
+        272
+      ],
+      "sha256_rect_rgba": "5df6ab3e96f9c01485e6c0088f171fdf6f79004cf63a66533057b55be4020fc0",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 6,
+      "source_rect": [
+        712,
+        365,
+        348,
+        339
+      ],
+      "ground_anchor": [
+        185,
+        314
+      ],
+      "action": "block_full_cover",
+      "visible_bbox_relative_alpha_gt_10": [
+        66,
+        47,
+        243,
+        267
+      ],
+      "sha256_rect_rgba": "4c0920f750f6a15e59c0eeec64c473daf14535059c90503e2e8791c129afab73",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 7,
+      "source_rect": [
+        1060,
+        365,
+        388,
+        339
+      ],
+      "ground_anchor": [
+        180,
+        316
+      ],
+      "action": "right_hand_sword_slash",
+      "visible_bbox_relative_alpha_gt_10": [
+        50,
+        48,
+        270,
+        272
+      ],
+      "sha256_rect_rgba": "a8d2f44ace264078eb57f690105f7e9f6775988f779f27d2c142cf4da9ccb1cc",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 8,
+      "source_rect": [
+        0,
+        704,
+        348,
+        382
+      ],
+      "ground_anchor": [
+        184,
+        317
+      ],
+      "action": "recover",
+      "visible_bbox_relative_alpha_gt_10": [
+        63,
+        27,
+        243,
+        290
+      ],
+      "sha256_rect_rgba": "e14a8ecda02b59ed2e0e8b06ce5f469228be522444bf9cc2a6cd4730b2521234",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 9,
+      "source_rect": [
+        348,
+        704,
+        364,
+        382
+      ],
+      "ground_anchor": [
+        180,
+        318
+      ],
+      "action": "hurt",
+      "visible_bbox_relative_alpha_gt_10": [
+        45,
+        34,
+        257,
+        286
+      ],
+      "sha256_rect_rgba": "4daf76429c08b43007a21ea6f377a423cbf8bc1621bdef56b61e4d394386bcd9",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 10,
+      "source_rect": [
+        712,
+        704,
+        348,
+        382
+      ],
+      "ground_anchor": [
+        192,
+        325
+      ],
+      "action": "collapse",
+      "visible_bbox_relative_alpha_gt_10": [
+        46,
+        100,
+        287,
+        227
+      ],
+      "sha256_rect_rgba": "086883e2254ae8a2c28f1d4d7a0aaeba0be85fe8e9656515b86410c4c835e2be",
+      "nonempty_alpha_gt_10": true
+    },
+    {
+      "index": 11,
+      "source_rect": [
+        1060,
+        704,
+        388,
+        382
+      ],
+      "ground_anchor": [
+        200,
+        324
+      ],
+      "action": "dead",
+      "visible_bbox_relative_alpha_gt_10": [
+        16,
+        191,
+        340,
+        132
+      ],
+      "sha256_rect_rgba": "6d3a738cab00be6c663e4d4de127ac5530319d2b6b5f0b7d46ebdce930cc8b87",
+      "nonempty_alpha_gt_10": true
+    }
+  ],
+  "visual_findings": [
+    "Identity consistent: closed silver helmet, blue tabard, brown belt/boots, left-hand blue steel-rimmed kite shield and right-hand short sword; approximately three-head proportions.",
+    "Targeted image edit visibly changed frame3 to opposite forward foot and frame4 to opposite lifted knee. These now support an alternating gait, still requiring in-engine loop playback acceptance.",
+    "Targeted edit changed frame7 from a forward sword extension to a diagonal downward-right sword slash follow-through. Visible glove and arm remain connected to the viewer-left shoulder.",
+    "Block frame6 clearly covers torso and lower helmet; helmet crown and eye slits remain visible, so it is not literal complete face cover.",
+    "Hurt retains both weapons. Collapse has sword toward floor and shield at side. Prone corpse shield rests across foreground.",
+    "Targeted image edit slightly altered other source pixels despite a preserve request. The final selected full output is copied unmodified; byte identity outside target frames was not preserved."
+  ],
+  "acceptance": {
+    "transparent_png": "pass with partial-alpha edges/interiors",
+    "twelve_nonempty_distinct_source_frames": "pass",
+    "identity_at_atlas_scale": "pass with visual-review caveat",
+    "anatomy_at_atlas_scale": "no obvious extra limbs or detached weapon hands",
+    "requested_pose_semantics": "pass at still-frame review; block leaves eye slits visible",
+    "strict_native_64px": "not passed",
+    "strict_limited_palette": "not passed",
+    "original_source_unchanged": "pass: selected generation copied byte-for-byte",
+    "game_size_animation_playback": "not performed by source-art worker",
+    "godot_import_and_events": "parent integration required"
+  },
+  "prompt_set": "art_source/squad_actions_prompt_metadata.json"
+}

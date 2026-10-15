@@ -1,0 +1,110 @@
+[
+  {
+    "source": "art_source/hero_actions.png",
+    "runtime": "art_source/hero_actions.webp",
+    "source_bytes": 1296662,
+    "runtime_bytes": 999432,
+    "width": 1254,
+    "height": 1254,
+    "all_rgba_exact": true,
+    "decoded_rgba_sha256": "c7d1b48b3f7d95a130c3ebabd5345536ee62be0963a83923794e54b8e3e22dd4",
+    "source_sha256": "0abd0c63ebacb38eac429b853ba752a13b083cb09730a9747097fb81baaca158",
+    "runtime_sha256": "6961d7ce23ecacb867b08322214b35f7808baa67ad0826e41bb38358b29afe81"
+  },
+  {
+    "source": "art_source/archer_actions.png",
+    "runtime": "art_source/archer_actions.webp",
+    "source_bytes": 1066375,
+    "runtime_bytes": 840356,
+    "width": 1448,
+    "height": 1086,
+    "all_rgba_exact": true,
+    "decoded_rgba_sha256": "9bf7885a98141cadec44f82655da51866c05f234b1d8c8ee2d0f4ca2860e82f4",
+    "source_sha256": "98563925479364164e04ec8746e02cec18798c20d896a498acefb259e1ccdc93",
+    "runtime_sha256": "c0b7fcc631ba768e4333de8b8b5abf8f8d98af0fc86f3921b4860c5316d667e9"
+  },
+  {
+    "source": "art_source/shield_actions.png",
+    "runtime": "art_source/shield_actions.webp",
+    "source_bytes": 1063821,
+    "runtime_bytes": 760032,
+    "width": 1448,
+    "height": 1086,
+    "all_rgba_exact": true,
+    "decoded_rgba_sha256": "3554d1fea09b0021a8596e01877ca2ed219d935b0c1367a52e492027b2587823",
+    "source_sha256": "7bb614eb9f54b75d570e2d7d9affb4398e217c4e9a601c7ad03832cb1cea3325",
+    "runtime_sha256": "593777788e2f973f318ebccf3b995c65cb043dd4a46d568cfeae5c8235c2fac8"
+  },
+  {
+    "source": "art_source/demon_actions.png",
+    "runtime": "art_source/demon_actions.webp",
+    "source_bytes": 1077148,
+    "runtime_bytes": 838986,
+    "width": 1448,
+    "height": 1086,
+    "all_rgba_exact": true,
+    "decoded_rgba_sha256": "8af5e7899d19e9743a0cfb596e86f1cbaa6ff2a1cb4e99335a7c0939a5fb0869",
+    "source_sha256": "ee250093aea5c921fcc1b99dbba92d160c978808afbcadd9955c3ca8aeeb9f3b",
+    "runtime_sha256": "451450d3a73169e40b29b4c5f8a001e128d322f45430a93aeba3fcce7b114589"
+  },
+  {
+    "source": "art_source/caster_actions.png",
+    "runtime": "art_source/caster_actions.webp",
+    "source_bytes": 1098771,
+    "runtime_bytes": 903336,
+    "width": 1448,
+    "height": 1086,
+    "all_rgba_exact": true,
+    "decoded_rgba_sha256": "494bd599a5ad662cc4a48afc0d9379291b2bbde50f9033040ff8901e1208bf1e",
+    "source_sha256": "eabc2a07089a1a8bb7d5d47c22283a52c95d138aa8ff44e3b990a3bbb06fc746",
+    "runtime_sha256": "b924c65faeeedc40f4defe41a092d0e67c7a66a9e8dbeffd8703447e1e43a0e8"
+  },
+  {
+    "source": "art_source/boss_actions.png",
+    "runtime": "art_source/boss_actions.webp",
+    "source_bytes": 1687160,
+    "runtime_bytes": 1280598,
+    "width": 1448,
+    "height": 1086,
+    "all_rgba_exact": true,
+    "decoded_rgba_sha256": "e0d41497733e612ae0f5f8a029de3a974ffa0440dc80ae17be3ddcf40f1a4309",
+    "source_sha256": "194caaf1b8e855a9b8a8620fb6cd6cc53ebe07f292c83b35a1c0ae7b661a6de5",
+    "runtime_sha256": "9f71ec61ee192287f52422b1d6b330d6c61e75a8d5bb520c5613c6b569dcf6ac"
+  },
+  {
+    "source": "assets/corpse_ecology/zombie_retained_actions.png",
+    "runtime": "assets/corpse_ecology/zombie_retained_actions.webp",
+    "source_bytes": 1298732,
+    "runtime_bytes": 915950,
+    "width": 1448,
+    "height": 1086,
+    "all_rgba_exact": true,
+    "decoded_rgba_sha256": "bcf81b35b759871738f2f3d0afdf816e5104d95cb9f136d4b16d9b67bc302dba",
+    "source_sha256": "f35c93dfb33ee25d07895689544673f7c71a758d1f4004dd8f2168ebca89f0ee",
+    "runtime_sha256": "316652f93fddcad2a7274feacf2f1c38fd7ea26a29f55b0389912fc402f82a60"
+  },
+  {
+    "source": "assets/corpse_ecology/zombie_fallen_actions.png",
+    "runtime": "assets/corpse_ecology/zombie_fallen_actions.webp",
+    "source_bytes": 1349517,
+    "runtime_bytes": 950472,
+    "width": 1448,
+    "height": 1086,
+    "all_rgba_exact": true,
+    "decoded_rgba_sha256": "8e30d1cb5e56bf295e05afd6e00cd0090e5278eacc1ddc00551c2cb5c20d34fc",
+    "source_sha256": "c641ffa427561fbfdd69e9ffd4d4a7ffb6f68a759277581e2f434848885e6888",
+    "runtime_sha256": "f1ebfc415c48bddc0631cf39a77fe060998c677baa5950b0ffd66ef2f2e8063d"
+  },
+  {
+    "source": "assets/corpse_ecology/undead_human_actions.png",
+    "runtime": "assets/corpse_ecology/undead_human_actions.webp",
+    "source_bytes": 1332401,
+    "runtime_bytes": 956132,
+    "width": 1448,
+    "height": 1086,
+    "all_rgba_exact": true,
+    "decoded_rgba_sha256": "ac2a3ac914eb9572416975531e59e9b3dcffe0979a3c34ce927d43add551b6eb",
+    "source_sha256": "decf2035c3e8ce95bd3bb146d6817c208056436207b45a8a979d8e22117159e4",
+    "runtime_sha256": "3e4e2a8a2eb018ab4f89dac41c6e34e8c1c9f0f781188ed53346b185f8ae50fd"
+  }
+]
